@@ -1,0 +1,22 @@
+templates:
+  - &BANK_GAIN_SCALE { gainScale: {0: 1, 1: 3, 2: 5, 3: 10 } }
+
+players:
+  max: 1
+sequences:
+  - type: ROUND
+    number: 1
+    duration_s: 120
+    bank:
+      fillType: none
+      threshold: 9
+      preMultiplier: 1
+      << : *BANK_GAIN_SCALE
+  - type: ROUND
+    number: 2
+    duration_s: 120
+    bank:
+      fillType: previous
+      threshold: 9
+      preMultiplier: 1
+      << : *BANK_GAIN_SCALE
