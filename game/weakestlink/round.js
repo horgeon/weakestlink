@@ -1,4 +1,5 @@
 require('../io');
+const Player = require('./player/index');
 
 class Round {
     constructor(configuration) {
@@ -59,7 +60,7 @@ class Round {
         }
         this.sendSetUI = game.sendSetUI;
         this.sendEventWithGame = game.sendEventWithGame;
-        this.players = players;
+        this.players = [...players];
         this.players.forEach(player => player.changeRound());
         // If no more players
         if(this.players.length == 0) {
@@ -146,6 +147,8 @@ class Round {
         this.players.forEach(player => player.currentRoundStats.answer(true, false));
         // Change player
         this.players.push(currentPlayer);
+        // Compute player status
+        Player.updateStatus(this.players);
         // Change question
         this.changeQuestion();
     }
@@ -167,6 +170,8 @@ class Round {
         this.bankGainScaleIndex = 0;
         // Change player
         this.players.push(currentPlayer);
+        // Compute player status
+        Player.updateStatus(this.players);
         // Change question
         this.changeQuestion();
     }
@@ -184,11 +189,16 @@ class Round {
         this.players.forEach(player => player.currentRoundStats.moneyBank(this.cummulatedGains, false));
         // Put current player back into the front of player list
         this.players.unshift(currentPlayer);
+        // Compute player status
+        Player.updateStatus(this.players);
         // Push new values to UI (masqueraded as new question because the UI does not know better)
+        let timer = this.timer;
+        this.timer = null;
         this.sendEventWithGame({
             type: 'ROUND_QUESTION_UPDATE',
             question: this.currentQuestion
         });
+        this.timer = timer;
     }
 
     stop() {

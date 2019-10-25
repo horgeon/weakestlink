@@ -68,19 +68,14 @@ class Vote {
 
     onVoteReveal() {
         console.log('# VOTE : Reveal');
-        console.log(this.players);
         let sortedVotes = [];
         for (let index in this.votes) {
             if(this.votes.hasOwnProperty(index)) {
                 sortedVotes.push([index, this.votes[index]]);
             }
         }
-        console.log(sortedVotes);
         sortedVotes.sort((a, b) => b[1] - a[1]);
-        console.log(sortedVotes);
         let finalVotes = sortedVotes.slice(0, this.numberToExclude);
-        console.log(finalVotes);
-        console.log(sortedVotes);
         this.excludedPlayers = [];
         finalVotes.forEach(votePair => {
             this.players.forEach(player => {
@@ -89,7 +84,6 @@ class Vote {
                 }
             });
         });
-        console.log(this.players);
         console.log(this.excludedPlayers);
         this.sendSetUI('/vote/reveal');
     }

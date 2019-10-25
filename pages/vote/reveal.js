@@ -21,7 +21,7 @@ export default class Reveal extends Component {
     componentDidMount() {
         this.context.setOnEvent(this.onEvent);
         let currentSeq = this.getCurrentSequence();
-        this.setState({numberToExclude: currentSeq.numberToExclude, players: currentSeq.players.splice(0), excludedPlayers: currentSeq.excludedPlayers.splice(0)});
+        this.setState({numberToExclude: currentSeq.numberToExclude, players: [...currentSeq.players], excludedPlayers: [...currentSeq.excludedPlayers]});
     }
 
     getCurrentSequence() {
@@ -70,7 +70,7 @@ export default class Reveal extends Component {
                 <Container>
                     <p>Excluded players :</p>
                     <ul>
-                        {excludedPlayersElems}
+                        {excludedPlayersElems} {player.currentStatus}
                     </ul>
                     {btn}
                 </Container>

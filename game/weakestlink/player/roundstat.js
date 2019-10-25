@@ -20,12 +20,14 @@ class RoundStat {
                 bad: 0
             }
         };
+        this.score = 0;
     }
 
     clone() {
         let newStats = new RoundStat();
         newStats.player = this.player;
         newStats.round = this.round;
+        newStats.score = this.score;
     }
 
     moneyBank(amount, forPlayer = true) {
@@ -33,6 +35,7 @@ class RoundStat {
             this.player.money.banked += amount;
         }
         this.round.money.banked += amount;
+        this.computeScore();
     }
 
     moneyLost(amount, forPlayer = true) {
@@ -40,6 +43,7 @@ class RoundStat {
             this.player.money.lost += amount;
         }
         this.round.money.lost += amount;
+        this.computeScore();
     }
 
     answer(isGoodAnswer, forPlayer = true) {
@@ -54,6 +58,7 @@ class RoundStat {
             }
             this.round.answers.bad++;
         }
+        this.computeScore();
     }
 
     get money() {
@@ -64,11 +69,12 @@ class RoundStat {
         return this.player.answers;
     }
 
-    get score() {
-        return this.player.answers.good / ( this.round.answers.good + this.round.answers.bad ) + this.player.money.banked + this.round.money.banked;
+    computeScore() {
+        this.score = this.player.answers.good / ( this.round.answers.good + this.round.answers.bad ) + this.player.money.banked + this.round.money.banked;
     }
 
     add(stat) {
+        newStats = this.clone();
         newStats.player.money.banked += stat.player.money.banked;
         newStats.player.money.lost += stat.player.money.lost;
         newStats.player.answers.good += stat.player.answers.good;
@@ -77,6 +83,7 @@ class RoundStat {
         newStats.round.money.lost += stat.round.money.lost;
         newStats.round.answers.good += stat.round.answers.good;
         newStats.round.answers.bad += stat.round.answers.bad;
+        newStats.computeScore();
         return newStats;
     }
 }
