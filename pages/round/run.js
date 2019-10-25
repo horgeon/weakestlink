@@ -29,7 +29,9 @@ export default class Run extends Component {
     }
 
     getCurrentSequence() {
-        return this.context.game.previousSequences[this.context.game.previousSequences.length - 1];
+        if(this.context.game !== null && this.context.game.currentSequence !== null)
+            return this.context.game.currentSequence;
+        return {};
     }
 
     handleRight() {
@@ -74,29 +76,34 @@ export default class Run extends Component {
 
     render() {
         let currentSeq = this.getCurrentSequence();
-        if(this.context.gameMaster || this.context.gameAssistant) {
+        if(currentSeq.type === 'ROUND') {
+            if(this.context.gameMaster || this.context.gameAssistant) {
+                return (
+                    <Container>
+                        <p>Round {this.state.number}</p>
+                        <p>Duration {this.state.duration_ms}</p>
+                        <p>Question: {JSON.stringify(this.state.question)}</p>
+                        <p>Bank : {currentSeq.bank}, answered right: {currentSeq.answerCorrects}</p>
+                        <p>Bank scale : {JSON.stringify(currentSeq.bankGainScale)}, current value: {currentSeq.bankGainScale[currentSeq.bankGainScaleIndex]}</p>
+                        <Form inverted loading={this.state.submitted}>
+                            <p><Button onClick={this.handleRight} color='green'>Right</Button><Button onClick={this.handleWrong} color='red'>Wrong</Button></p>
+                            <p><Button onClick={this.handleBank} color='blue'>Bank</Button></p>
+                            <p><Button onClick={this.handleStop} color='pink'>Stop</Button></p>
+                        </Form>
+                    </Container>
+                );
+            }
             return (
                 <Container>
                     <p>Round {this.state.number}</p>
                     <p>Duration {this.state.duration_ms}</p>
-                    <p>Question: {JSON.stringify(this.state.question)}</p>
                     <p>Bank : {currentSeq.bank}, answered right: {currentSeq.answerCorrects}</p>
                     <p>Bank scale : {JSON.stringify(currentSeq.bankGainScale)}, current value: {currentSeq.bankGainScale[currentSeq.bankGainScaleIndex]}</p>
-                    <Form inverted loading={this.state.submitted}>
-                        <p><Button onClick={this.handleRight} color='green'>Right</Button><Button onClick={this.handleWrong} color='red'>Wrong</Button></p>
-                        <p><Button onClick={this.handleBank} color='blue'>Bank</Button></p>
-                        <p><Button onClick={this.handleStop} color='pink'>Stop</Button></p>
-                    </Form>
                 </Container>
             );
         }
         return (
-            <Container>
-                <p>Round {this.state.number}</p>
-                <p>Duration {this.state.duration_ms}</p>
-                <p>Bank : {currentSeq.bank}, answered right: {currentSeq.answerCorrects}</p>
-                <p>Bank scale : {JSON.stringify(currentSeq.bankGainScale)}, current value: {currentSeq.bankGainScale[currentSeq.bankGainScaleIndex]}</p>
-            </Container>
+            <Container>Waiting...</Container>
         );
     }
 };

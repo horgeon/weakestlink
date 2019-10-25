@@ -3,6 +3,7 @@ const yaml = require('js-yaml');
 const fs = require('fs');
 const Game = require('./game');
 const Round = require('./round');
+const Vote = require('./vote');
 
 const configFilePath = path.resolve(__dirname, 'configuration.yml');
 const questionsFilePath = path.resolve(__dirname, 'questions.yml');
@@ -16,10 +17,18 @@ function parseRoundSequence(sequenceIndex, sequenceDescriptionObject, questions)
     });
 }
 
+function parseVoteSequence(sequenceIndex, sequenceDescriptionObject) {
+    return new Vote({
+        player: sequenceDescriptionObject.player
+    });
+}
+
 function parseSequence(sequenceIndex, sequenceDescriptionObject, questions) {
     switch(sequenceDescriptionObject.type) {
         case 'ROUND':
             return parseRoundSequence(sequenceIndex, sequenceDescriptionObject, questions);
+        case 'VOTE':
+            return parseVoteSequence(sequenceIndex, sequenceDescriptionObject);
         default:
             throw 'Invalid type for sequence ' + sequenceIndex;
     }

@@ -12,6 +12,9 @@ sequences:
       threshold: 9
       preMultiplier: 1
       << : *BANK_GAIN_SCALE
+  - type: VOTE
+    player:
+      numberToExclude: 1
   - type: ROUND
     number: 2
     duration_s: 120

@@ -2,13 +2,14 @@ require('../io');
 
 class Round {
     constructor(configuration) {
+        this.type = 'ROUND';
         this.number = configuration.number;
         this.duration_ms = configuration.duration_s * 1000;
         this.bankFillType = configuration.bank.fillType;
         this.bankPreMultiplier = configuration.bank.preMultiplier;
         this.bankGainScaleIndex = 0;
         this.questions = configuration.questions;
-        this.anwserCorrects = 0;
+        this.answerCorrects = 0;
         this.onEvent = this.onEvent.bind(this);
         this.checkInterval = this.checkInterval.bind(this);
         this.currentQuestion = null;
@@ -60,6 +61,17 @@ class Round {
         this.sendEventWithGame = game.sendEventWithGame;
         this.players = players;
         this.players.forEach(player => player.changeRound());
+        // If no more players
+        if(this.players.length == 0) {
+            // Skip section
+            gameIO.sendEvent({
+                type: 'ERROR',
+                msg: 'No more players for round'
+            });
+            return new Promise(resolve => {
+                resolve();
+            });
+        }
         // Change to pre-round UI
         this.sendSetUI('/round/start');
         // Use promise to make parent function wait
@@ -95,7 +107,7 @@ class Round {
     changeQuestion() {
         console.log('# ROUND : Change question');
         // If we have 9 consecutive correct answers, stop
-        if(this.answerCorrect >= 9) {
+        if(this.answerCorrects >= 9) {
             this.stop();
         }
         // Remove question in front if we need to advance
@@ -172,6 +184,11 @@ class Round {
         this.players.forEach(player => player.currentRoundStats.moneyBank(this.cummulatedGains, false));
         // Put current player back into the front of player list
         this.players.unshift(currentPlayer);
+        // Push new values to UI (masqueraded as new question because the UI does not know better)
+        this.sendEventWithGame({
+            type: 'ROUND_QUESTION_UPDATE',
+            question: this.currentQuestion
+        });
     }
 
     stop() {

@@ -19,8 +19,14 @@ export default class Start extends Component {
 
     componentDidMount() {
         this.context.setOnEvent(this.onEvent);
-        let currentSeq = this.context.game.previousSequences[this.context.game.previousSequences.length - 1];
+        let currentSeq = this.getCurrentSequence();
         this.setState({number: currentSeq.number});
+    }
+
+    getCurrentSequence() {
+        if(this.context.game !== null && this.context.game.currentSequence !== null)
+            return this.context.game.currentSequence;
+        return {};
     }
 
     onEvent(event) {
