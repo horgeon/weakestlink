@@ -41,8 +41,19 @@ class Game {
     }
 
     onEvent(from, event) {
-        if(this.currentSequence !== null) {
-            return this.currentSequence.onEvent(from, event);
+        switch(event.type) {
+            case 'GAME_GET':
+                gameIO.sendEvent(from, {
+                    type: 'GAME_PUSH',
+                    game: this,
+                    gameCode: event.gameCode
+                });
+                return true;
+            default:
+                if(this.currentSequence !== null) {
+                    return this.currentSequence.onEvent(from, event);
+                }
+                break;
         }
         return false;
     }

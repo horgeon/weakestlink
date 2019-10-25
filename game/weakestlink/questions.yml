@@ -8,3 +8,34 @@
     a: Answer3
   - q: Test4
     a: Answer4
+faceoff:
+  - q: Test1
+    a: Answer1
+  - q: Test2
+    a: Answer2
+  - q: Test3
+    a: Answer3
+  - q: Test4
+    a: Answer4
+  - q: Test5
+    a: Answer5
+  - q: Test1
+    a: Answer1
+  - q: Test2
+    a: Answer2
+  - q: Test3
+    a: Answer3
+  - q: Test4
+    a: Answer4
+  - q: Test5
+    a: Answer5
+  - q: Test1
+    a: Answer1
+  - q: Test2
+    a: Answer2
+  - q: Test3
+    a: Answer3
+  - q: Test4
+    a: Answer4
+  - q: Test5
+    a: Answer5

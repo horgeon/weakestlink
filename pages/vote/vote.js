@@ -1,6 +1,6 @@
 import { Component, useContext } from 'react'
 import UserContext from '../../components/UserContext';
-import { Table, Container, Form, Button, Checkbox } from 'semantic-ui-react'
+import { Table, Container, Form, Button, Checkbox, Accordion } from 'semantic-ui-react'
 
 export default class Vote extends Component {
     static contextType = UserContext;
@@ -122,45 +122,63 @@ export default class Vote extends Component {
                         {reveal}
                     </Container>
                 );
-            }
-            if(this.state.done) {
-                let votes = [];
+            } else if(this.context.player !== null) {
+                if(this.state.done) {
+                    let votes = [];
+                    this.state.players.forEach(player => {
+                        let voted = this.state.votes.indexOf(player.id) > -1;
+                        if(voted) {
+                            votes.push((<li>{player.name}</li>));
+                        }
+                    });
+                    return (
+                        <Container>
+                            <p>Vote for {this.state.numberToExclude} players</p>
+                            <ul>
+                                {votes}
+                            </ul>
+                        </Container>
+                    );
+                }
+
+                let voteInputs = [];
                 this.state.players.forEach(player => {
                     let voted = this.state.votes.indexOf(player.id) > -1;
-                    if(voted) {
-                        votes.push((<li>{player.name}</li>));
-                    }
+                    voteInputs.push((
+                        <Checkbox
+                            label={player.name}
+                            onChange={() => this.handleVote(player.id)}
+                            checked={voted}
+                            disabled={this.state.votes.length >= this.state.numberToExclude}
+                        />
+                    ));
                 });
                 return (
                     <Container>
                         <p>Vote for {this.state.numberToExclude} players</p>
-                        <ul>
-                            {votes}
-                        </ul>
+                        <Form inverted loading={this.state.submitted}>
+                            {voteInputs}
+                        </Form>
+                    </Container>
+                );
+            } else {
+                let leftToVote = -1;
+                if(currentSeq.playersThatVoted !== undefined) {
+                    for(let index in currentSeq.playersThatVoted) {
+                        if(currentSeq.playersThatVoted.hasOwnProperty(index)) {
+                            if(currentSeq.playersThatVoted[index] == 0) {
+                                leftToVote++;
+                            }
+                        }
+                    }
+                }
+                return (
+                    <Container>
+                        <p>Vote for {this.state.numberToExclude} players</p>
+                        <p>Waiting for {leftToVote} players</p>
                     </Container>
                 );
             }
-
-            let voteInputs = [];
-            this.state.players.forEach(player => {
-                let voted = this.state.votes.indexOf(player.id) > -1;
-                voteInputs.push((
-                    <Checkbox
-                        label={player.name}
-                        onChange={() => this.handleVote(player.id)}
-                        checked={voted}
-                        disabled={this.state.votes.length >= this.state.numberToExclude}
-                    />
-                ));
-            });
-            return (
-                <Container>
-                    <p>Vote for {this.state.numberToExclude} players</p>
-                    <Form inverted loading={this.state.submitted}>
-                        {voteInputs}
-                    </Form>
-                </Container>
-            );
         }
         return (
             <Container>Waiting...</Container>

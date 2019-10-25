@@ -12,6 +12,7 @@ sequences:
       threshold: 9
       preMultiplier: 1
       << : *BANK_GAIN_SCALE
+  - type: FACEOFF
   - type: VOTE
     player:
       numberToExclude: 1

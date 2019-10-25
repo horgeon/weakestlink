@@ -50,7 +50,9 @@ class Round {
         console.log(players);
         switch(this.bankFillType) {
             case 'previous':
-                let previousRound = previousSequences.slice(0).reverse().find(seq_elem => seq_elem instanceof Round);
+                let reversedPreviousSequence = [...previousSequences];
+                reversedPreviousSequence.reverse();
+                let previousRound = reversedPreviousSequence.find(seq_elem => seq_elem instanceof Round);
                 this.bank = ( !isNaN(previousRound.bank) ? this.bankPreMultiplier * previousRound.bank : 0 );
                 break;
 
@@ -117,6 +119,7 @@ class Round {
         }
         // If no more questions, stop round preemptively
         if(this.questions.length == 0) {
+            console.log('! ROUND: NO MORE QUESTIONS');
             this.stop();
             return;
         }
@@ -154,17 +157,19 @@ class Round {
     }
 
     answerWrong() {
+        // Get gains according to scale
+        let gains = parseFloat(this.bankGainScale[this.bankGainScaleIndex]);
         // Reset correct answer amount
         this.answerCorrects = 0;
         // Get current player
         let currentPlayer = this.players.shift();
         // Set current player stats
         currentPlayer.currentRoundStats.answer(false, true);
-        currentPlayer.currentRoundStats.moneyLost(this.cummulatedGains, true);
+        currentPlayer.currentRoundStats.moneyLost(gains, true);
         // Set other players stats
         this.players.forEach(player => {
             player.currentRoundStats.answer(false, false)
-            player.currentRoundStats.moneyLost(this.cummulatedGains, false);
+            player.currentRoundStats.moneyLost(gains, false);
         });
         // Reset gains
         this.bankGainScaleIndex = 0;
@@ -177,16 +182,18 @@ class Round {
     }
 
     putInBank() {
+        // Get gains according to scale
+        let gains = parseFloat(this.bankGainScale[this.bankGainScaleIndex]);
         // Put gain in bank
-        this.bank += this.bankGainScale[this.bankGainScaleIndex];
+        this.bank += gains;
         // Go back to bottom of gain scale
         this.bankGainScaleIndex = 0;
         // Get current player
         let currentPlayer = this.players.shift();
         // Set current player stats
-        currentPlayer.currentRoundStats.moneyBank(this.cummulatedGains, true);
+        currentPlayer.currentRoundStats.moneyBank(gains, true);
         // Set other players stats
-        this.players.forEach(player => player.currentRoundStats.moneyBank(this.cummulatedGains, false));
+        this.players.forEach(player => player.currentRoundStats.moneyBank(gains, false));
         // Put current player back into the front of player list
         this.players.unshift(currentPlayer);
         // Compute player status

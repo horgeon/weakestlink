@@ -22,7 +22,10 @@ export default class GameApp extends App {
         loading: false,
         gameMaster: false,
         gameAssistant: false,
-        eventsOnWait: []
+        eventsOnWait: [],
+        player: null,
+        playerName: null,
+        inverted: true
     };
 
     constructor(props) {
@@ -133,7 +136,7 @@ export default class GameApp extends App {
                     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />
                     <link rel='stylesheet' type='text/css' href='/static/nprogress.css' />
                 </Head>
-                <Segment inverted>
+                <Segment inverted={this.state.inverted}>
                     <Dimmer active={this.state.connected}>
                         <Loader>Connecting...</Loader>
                     </Dimmer>
