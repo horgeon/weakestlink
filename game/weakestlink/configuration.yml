@@ -90,7 +90,7 @@ sequences:
   - type: VOTE
     player:
       numberToExclude: 1
-   - type: ROUND
+  - type: ROUND
     number: 8
     duration_s: 110
     players:
