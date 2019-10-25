@@ -4,6 +4,7 @@ const fs = require('fs');
 const Game = require('./game');
 const Round = require('./round');
 const Vote = require('./vote');
+const Faceoff = require('./faceoff');
 
 const configFilePath = path.resolve(__dirname, 'configuration.yml');
 const questionsFilePath = path.resolve(__dirname, 'questions.yml');
@@ -14,6 +15,12 @@ function parseRoundSequence(sequenceIndex, sequenceDescriptionObject, questions)
         duration_s: sequenceDescriptionObject.duration_s,
         bank: sequenceDescriptionObject.bank,
         questions: questions[sequenceDescriptionObject.number - 1]
+    });
+}
+
+function parseFaceoffSequence(sequenceIndex, sequenceDescriptionObject, questions) {
+    return new Faceoff({
+        questions: questions['faceoff']
     });
 }
 
@@ -29,6 +36,8 @@ function parseSequence(sequenceIndex, sequenceDescriptionObject, questions) {
             return parseRoundSequence(sequenceIndex, sequenceDescriptionObject, questions);
         case 'VOTE':
             return parseVoteSequence(sequenceIndex, sequenceDescriptionObject);
+        case 'FACEOFF':
+            return parseFaceoffSequence(sequenceIndex, sequenceDescriptionObject, questions);
         default:
             throw 'Invalid type for sequence ' + sequenceIndex;
     }
