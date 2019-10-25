@@ -97,8 +97,8 @@ export default class GameApp extends App {
         });
     }
 
-    setContext(context) {
-        return this.setState(context);
+    setContext(context, callback) {
+        return this.setState(context, callback);
     }
 
     sendEvent(event) {

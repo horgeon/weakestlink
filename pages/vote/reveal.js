@@ -63,14 +63,14 @@ export default class Reveal extends Component {
             let excludedPlayersElems = [];
             this.state.excludedPlayers.forEach(player => {
                 excludedPlayersElems.push((
-                    <li>{player.name}</li>
+                    <li>{player.name} {player.currentStatus}</li>
                 ));
             });
             return (
                 <Container>
                     <p>Excluded players :</p>
                     <ul>
-                        {excludedPlayersElems} {player.currentStatus}
+                        {excludedPlayersElems}
                     </ul>
                     {btn}
                 </Container>

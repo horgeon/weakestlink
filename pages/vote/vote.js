@@ -122,7 +122,7 @@ export default class Vote extends Component {
                         {reveal}
                     </Container>
                 );
-            } else if(this.context.player !== null) {
+            } else if(this.context.playerName !== null) {
                 if(this.state.done) {
                     let votes = [];
                     this.state.players.forEach(player => {
