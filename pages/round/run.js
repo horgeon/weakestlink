@@ -1,6 +1,9 @@
 import { Component, useContext } from 'react'
 import UserContext from '../../components/UserContext';
-import { Segment, Container, Form, Button } from 'semantic-ui-react'
+import { Table, Container, Form, Button } from 'semantic-ui-react'
+
+import BankScale from '../../components/BankScale';
+import Duration from '../../components/Duration';
 
 export default class Run extends Component {
     static contextType = UserContext;
@@ -78,27 +81,61 @@ export default class Run extends Component {
         let currentSeq = this.getCurrentSequence();
         if(currentSeq.type === 'ROUND') {
             if(this.context.gameMaster || this.context.gameAssistant) {
+                let stats = [];
+                let players = [...currentSeq.players];
+                players.sort((a, b) =>  b.currentRoundStats.score - a.currentRoundStats.score);
+                players.forEach(player => {
+                    stats.push((
+                        <Table.Row>
+                            <Table.Cell>{player.name}</Table.Cell>
+                            <Table.Cell>{player.currentRoundStats.score} {player.currentStatus}</Table.Cell>
+                            <Table.Cell>+{player.currentRoundStats.player.answers.good}/-{player.currentRoundStats.player.answers.bad}</Table.Cell>
+                            <Table.Cell>+{player.currentRoundStats.player.money.banked}/-{player.currentRoundStats.player.money.lost}</Table.Cell>
+                        </Table.Row>
+                    ));
+                });
                 return (
                     <Container>
-                        <p>Round {this.state.number}</p>
-                        <p>Duration {this.state.duration_ms}</p>
-                        <p>Question: {JSON.stringify(this.state.question)}</p>
+                        <p>Round {this.state.number} — <Duration value={this.state.duration_ms} /></p>
+                        <p><b>{currentSeq.players !== undefined ? currentSeq.players[0].name : ''}</b></p>
+                        <p>Question:</p>
+                        <p>
+                            <ul>
+                                <li>{this.state.question !== null ? this.state.question.q : ''}</li>
+                                <li style={{ listStyleType: "square" }}>{this.state.question !== null ? this.state.question.a : ''}</li>
+                            </ul>
+                        </p>
                         <p>Bank : {currentSeq.bank}, answered right: {currentSeq.answerCorrects}</p>
-                        <p>Bank scale : {JSON.stringify(currentSeq.bankGainScale)}, current value: {currentSeq.bankGainScale[currentSeq.bankGainScaleIndex]}</p>
+                        <BankScale scale={currentSeq.bankGainScale} index={currentSeq.bankGainScaleIndex} isVertical={false} />
                         <Form inverted loading={this.state.submitted}>
                             <p><Button onClick={this.handleRight} color='green'>Right</Button><Button onClick={this.handleWrong} color='red'>Wrong</Button></p>
                             <p><Button onClick={this.handleBank} color='blue'>Bank</Button></p>
                             <p><Button onClick={this.handleStop} color='pink'>Stop</Button></p>
                         </Form>
+                        <p>Stats</p>
+                        <Table celled>
+                            <Table.Header>
+                                <Table.Row>
+                                    <Table.HeaderCell>Name</Table.HeaderCell>
+                                    <Table.HeaderCell>Score</Table.HeaderCell>
+                                    <Table.HeaderCell>Answers</Table.HeaderCell>
+                                    <Table.HeaderCell>Money</Table.HeaderCell>
+                                </Table.Row>
+                            </Table.Header>
+
+                            <Table.Body>
+                                {stats}
+                            </Table.Body>
+                        </Table>
                     </Container>
                 );
             }
             return (
                 <Container>
-                    <p>Round {this.state.number}</p>
-                    <p>Duration {this.state.duration_ms}</p>
-                    <p>Bank : {currentSeq.bank}, answered right: {currentSeq.answerCorrects}</p>
-                    <p>Bank scale : {JSON.stringify(currentSeq.bankGainScale)}, current value: {currentSeq.bankGainScale[currentSeq.bankGainScaleIndex]}</p>
+                    <p>Round {this.state.number} — <Duration value={this.state.duration_ms} /></p>
+                    <p><b>{currentSeq.players !== undefined ? currentSeq.players[0].name : ''}</b></p>
+                    <BankScale scale={currentSeq.bankGainScale} index={currentSeq.bankGainScaleIndex} />
+                    <p>Bank : {currentSeq.bank}</p>
                 </Container>
             );
         }
