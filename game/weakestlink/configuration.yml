@@ -15,10 +15,11 @@ sequences:
       threshold: 9
       preMultiplier: 1
       << : *BANK_GAIN_SCALE
-  - type: FACEOFF
   - type: VOTE
     player:
       numberToExclude: 1
+    manual: true
+  - type: FACEOFF
   - type: ROUND
     number: 2
     duration_s: 120

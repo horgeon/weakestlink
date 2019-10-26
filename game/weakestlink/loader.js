@@ -26,7 +26,8 @@ function parseFaceoffSequence(sequenceIndex, sequenceDescriptionObject, question
 
 function parseVoteSequence(sequenceIndex, sequenceDescriptionObject) {
     return new Vote({
-        player: sequenceDescriptionObject.player
+        player: sequenceDescriptionObject.player,
+        manual: sequenceDescriptionObject.manual || false
     });
 }
 
