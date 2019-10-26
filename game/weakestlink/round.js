@@ -109,10 +109,6 @@ class Round {
 
     changeQuestion() {
         console.log('# ROUND : Change question');
-        // If we have 9 consecutive correct answers, stop
-        if(this.answerCorrects >= 9) {
-            this.stop();
-        }
         // Remove question in front if we need to advance
         if(this.currentQuestion !== null) {
             this.questions.shift();
@@ -137,11 +133,17 @@ class Round {
     }
 
     answerCorrect() {
+        let shouldStop = false;
         // Increase correct answer amount
         this.answerCorrects++;
-        // Increase bank amount
-        if(this.bankGainScaleIndex < this.bankGainScale.length - 1)
+        // If we still have steps on the gain scale
+        if(this.bankGainScaleIndex < this.bankGainScale.length - 1) {
+            // Increase bank amount
             this.bankGainScaleIndex++;
+        } else {
+            // We are at the top, stop the round
+            shouldStop = true;
+        }
         // Get current player
         let currentPlayer = this.players.shift();
         // Set current player stats
@@ -152,8 +154,13 @@ class Round {
         this.players.push(currentPlayer);
         // Compute player status
         Player.updateStatus(this.players);
-        // Change question
-        this.changeQuestion();
+        // Change question if we should continue
+        if(shouldStop) {
+            console.log('# ROUND : Gain scale maxed, stopping round');
+            this.stop();
+        } else {
+            this.changeQuestion();
+        }
     }
 
     answerWrong() {
