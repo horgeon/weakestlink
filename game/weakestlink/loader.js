@@ -14,7 +14,10 @@ function parseRoundSequence(sequenceIndex, sequenceDescriptionObject, questions)
         number: sequenceDescriptionObject.number,
         duration_s: sequenceDescriptionObject.duration_s,
         bank: sequenceDescriptionObject.bank,
-        questions: questions[sequenceDescriptionObject.number - 1]
+        questions: {
+            order: sequenceDescriptionObject.questions.order || 'inOrder',
+            map: questions[sequenceDescriptionObject.number - 1]
+        }
     });
 }
 

@@ -10,6 +10,8 @@ sequences:
   - type: ROUND
     number: 1
     duration_s: 120
+    questions:
+      order: random
     bank:
       fillType: none
       preMultiplier: 1
@@ -22,6 +24,8 @@ sequences:
   - type: ROUND
     number: 2
     duration_s: 120
+    questions:
+      order: random
     bank:
       fillType: previous
       preMultiplier: 1

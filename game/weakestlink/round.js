@@ -9,7 +9,7 @@ class Round {
         this.bankFillType = configuration.bank.fillType;
         this.bankPreMultiplier = configuration.bank.preMultiplier;
         this.bankGainScaleIndex = 0;
-        this.questions = configuration.questions;
+        this.questions = configuration.questions.map;
         this.answerCorrects = 0;
         this.onEvent = this.onEvent.bind(this);
         this.checkInterval = this.checkInterval.bind(this);
@@ -20,6 +20,26 @@ class Round {
             orderedBankScale[key] = configuration.bank.gainScale[key];
         });
         this.bankGainScale = Object.values(orderedBankScale);
+        if(configuration.questions.order === 'random') {
+            this.shuffleQuestions();
+        }
+    }
+
+    shuffleQuestions() {
+        let currentIndex = this.questions.length, temporaryValue, randomIndex;
+
+        // While there remain elements to shuffle...
+        while (0 !== currentIndex) {
+
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        // And swap it with the current element.
+        temporaryValue = this.questions[currentIndex];
+        this.questions[currentIndex] = this.questions[randomIndex];
+        this.questions[randomIndex] = temporaryValue;
+        }
     }
 
     onEvent(from, event) {
