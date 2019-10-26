@@ -9,6 +9,8 @@ players:
 sequences:
   - type: ROUND
     number: 1
+    players:
+      startType: 'alphabetical'
     duration_s: 120
     questions:
       order: random
@@ -16,13 +18,10 @@ sequences:
       fillType: none
       preMultiplier: 1
       << : *BANK_GAIN_SCALE
-  - type: VOTE
-    player:
-      numberToExclude: 1
-    manual: true
-  - type: FACEOFF
   - type: ROUND
     number: 2
+    players:
+      startType: 'previousStrongest'
     duration_s: 120
     questions:
       order: random
@@ -30,3 +29,8 @@ sequences:
       fillType: previous
       preMultiplier: 1
       << : *BANK_GAIN_SCALE
+  - type: VOTE
+    player:
+      numberToExclude: 1
+    manual: true
+  - type: FACEOFF

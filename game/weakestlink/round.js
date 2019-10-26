@@ -10,6 +10,7 @@ class Round {
         this.bankPreMultiplier = configuration.bank.preMultiplier;
         this.bankGainScaleIndex = 0;
         this.questions = configuration.questions.map;
+        this.playerStartType = configuration.players.startType;
         this.answerCorrects = 0;
         this.onEvent = this.onEvent.bind(this);
         this.checkInterval = this.checkInterval.bind(this);
@@ -83,6 +84,28 @@ class Round {
         this.sendSetUI = game.sendSetUI;
         this.sendEventWithGame = game.sendEventWithGame;
         this.players = [...players];
+        switch(this.playerStartType) {
+            case 'alphabetical':
+                let firstPlayerByName = this.players.reduce((acc, current) => {
+                    if(acc.name > current.name)
+                        return current;
+                    return acc;
+                });
+                while(this.players[0].id !== firstPlayerByName.id) {
+                    this.players.push(this.players.shift());
+                }
+                break;
+            case 'previousStrongest':
+                let firstPlayerByScore = this.players.reduce((acc, current) => {
+                    if(acc.currentRoundStats.score < current.currentRoundStats.score)
+                        return current;
+                    return acc;
+                });
+                while(this.players[0].id !== firstPlayerByScore.id) {
+                    this.players.push(this.players.shift());
+                }
+                break;
+        }
         this.players.forEach(player => player.changeRound());
         // If no more players
         if(this.players.length == 0) {
