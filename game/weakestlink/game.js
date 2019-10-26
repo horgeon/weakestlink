@@ -12,6 +12,11 @@ class Game {
         this.sendEventWithGame = this.sendEventWithGame.bind(this);
         this.onEvent = this.onEvent.bind(this);
         this.currentSequence = null;
+        if(configuration.players.names !== undefined) {
+            configuration.players.names.forEach((playerName, index) => {
+                this.playerJoin('PRELOADED_' + index, playerName);
+            });
+        }
     }
 
     playerCanJoin() {

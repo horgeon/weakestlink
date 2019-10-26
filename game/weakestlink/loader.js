@@ -46,9 +46,7 @@ function parseSequence(sequenceIndex, sequenceDescriptionObject, questions) {
 function parseConfiguration(config, questions) {
     let gameConfig = {
         sequences: [],
-        players: {
-            max: config.players.max
-        }
+        players: config.players
     };
 
     config.sequences.forEach((sequence, index) => {

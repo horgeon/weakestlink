@@ -3,6 +3,9 @@ templates:
 
 players:
   max: 1
+  names:
+    - Mdr1
+    - Mdr2
 sequences:
   - type: ROUND
     number: 1
