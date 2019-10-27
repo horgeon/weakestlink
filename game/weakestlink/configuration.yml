@@ -4,15 +4,15 @@ templates:
 players:
   max: 9
   names:
-    - Yann
-    - Cannelle
-    - Elliot
-    - Pierre-Louis
-    - Bérénice
-    - Clémence
-    - Louis-Félix
-    - Lisa
-    - Enzo
+    - player1
+    - player2
+    - player3
+    - player4
+    - player5
+    - player6
+    - player7
+    - player8
+    - player9
 sequences:
   - type: ROUND
     number: 1
@@ -133,3 +133,4 @@ sequences:
   - type: FACEOFF
     questions:
       order: random
+

@@ -70,14 +70,10 @@ class RoundStat {
     }
 
     computeScore() {
-<<<<<<< HEAD
-        this.score = this.player.answers.good / ( this.round.answers.good + this.round.answers.bad ) + this.player.money.banked + this.round.money.banked;
-=======
         let answersTotal = this.round.answers.good + this.round.answers.bad;
         let answersScore = answersTotal == 0 ? 0 : this.player.answers.good / answersTotal;
         let moneyScore = this.round.money.banked == 0 ? 0 : this.player.money.banked / this.round.money.banked;
         this.score = answersScore + moneyScore;
->>>>>>> 26102019-prod
     }
 
     add(stat) {

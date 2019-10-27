@@ -4,10 +4,7 @@ class Vote {
     constructor(configuration) {
         this.type = 'VOTE';
         this.numberToExclude = configuration.player.numberToExclude;
-<<<<<<< HEAD
-=======
         this.manual = configuration.manual || false;
->>>>>>> 26102019-prod
         this.votes = {};
         this.excludedPlayers = [];
         this.playersThatVoted = {};
@@ -21,8 +18,7 @@ class Vote {
             case 'VOTE_PLAYER':
                 this.onVote(from, event);
                 return true;
-<<<<<<< HEAD
-=======
+
             case 'VOTE_PLAYER_ADD':
                 this.votes[event.votedPlayerId]++;
                 this.sendEventWithGame({
@@ -50,7 +46,6 @@ class Vote {
                     votedPlayerId: event.votedPlayerId
                 });
                 return true;
->>>>>>> 26102019-prod
             case 'VOTE_REVEAL':
                 this.onVoteReveal();
                 return true;
@@ -76,15 +71,11 @@ class Vote {
             obj.playersThatVoted[players.id] = 0;
         });
         // Change to vote UI
-<<<<<<< HEAD
-        this.sendSetUI('/vote/vote');
-=======
         if(this.manual) {
             this.sendSetUI('/vote/manual');
         } else {
             this.sendSetUI('/vote/vote');
         }
->>>>>>> 26102019-prod
         // Use promise to make parent function wait
         return new Promise(resolve => {
             obj.stopPromise = resolve;
@@ -110,24 +101,6 @@ class Vote {
 
     onVoteReveal() {
         console.log('# VOTE : Reveal');
-<<<<<<< HEAD
-        let sortedVotes = [];
-        for (let index in this.votes) {
-            if(this.votes.hasOwnProperty(index)) {
-                sortedVotes.push([index, this.votes[index]]);
-            }
-        }
-        sortedVotes.sort((a, b) => b[1] - a[1]);
-        let finalVotes = sortedVotes.slice(0, this.numberToExclude);
-        this.excludedPlayers = [];
-        finalVotes.forEach(votePair => {
-            this.players.forEach(player => {
-                if(player.id === votePair[0]) {
-                    this.excludedPlayers.push(player);
-                }
-            });
-        });
-=======
         if(!this.manual) {
             let sortedVotes = [];
             for (let index in this.votes) {
@@ -145,8 +118,7 @@ class Vote {
                     }
                 });
             });
-        }
->>>>>>> 26102019-prod
+        });
         console.log(this.excludedPlayers);
         this.sendSetUI('/vote/reveal');
     }
