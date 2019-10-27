@@ -14,19 +14,39 @@ function parseRoundSequence(sequenceIndex, sequenceDescriptionObject, questions)
         number: sequenceDescriptionObject.number,
         duration_s: sequenceDescriptionObject.duration_s,
         bank: sequenceDescriptionObject.bank,
+<<<<<<< HEAD
         questions: questions[sequenceDescriptionObject.number - 1]
+=======
+        players: sequenceDescriptionObject.players,
+        questions: {
+            order: sequenceDescriptionObject.questions.order || 'inOrder',
+            map: questions[sequenceDescriptionObject.number - 1]
+        }
+>>>>>>> 26102019-prod
     });
 }
 
 function parseFaceoffSequence(sequenceIndex, sequenceDescriptionObject, questions) {
     return new Faceoff({
+<<<<<<< HEAD
         questions: questions['faceoff']
+=======
+        questions: {
+            order: sequenceDescriptionObject.questions.order || 'inOrder',
+            map: questions['faceoff']
+        }
+>>>>>>> 26102019-prod
     });
 }
 
 function parseVoteSequence(sequenceIndex, sequenceDescriptionObject) {
     return new Vote({
+<<<<<<< HEAD
         player: sequenceDescriptionObject.player
+=======
+        player: sequenceDescriptionObject.player,
+        manual: sequenceDescriptionObject.manual || false
+>>>>>>> 26102019-prod
     });
 }
 
@@ -46,9 +66,13 @@ function parseSequence(sequenceIndex, sequenceDescriptionObject, questions) {
 function parseConfiguration(config, questions) {
     let gameConfig = {
         sequences: [],
+<<<<<<< HEAD
         players: {
             max: config.players.max
         }
+=======
+        players: config.players
+>>>>>>> 26102019-prod
     };
 
     config.sequences.forEach((sequence, index) => {
@@ -63,4 +87,8 @@ module.exports = function() {
     let questions = yaml.safeLoad(fs.readFileSync(questionsFilePath, 'utf8'));
     let gameConfiguration = parseConfiguration(config, questions);
     return new Game(gameConfiguration);
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 26102019-prod

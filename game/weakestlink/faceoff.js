@@ -5,14 +5,44 @@ const Round = require('./round');
 class Faceoff {
     constructor(configuration) {
         this.type = 'FACEOFF';
+<<<<<<< HEAD
         this.questions = configuration.questions;
         this.consecutiveAnswers = 0;
         this.currentQuestion = null;
+=======
+        this.questions = configuration.questions.map;
+        this.consecutiveAnswers = {};
+        this.currentQuestion = null;
+        this.players = [];
+>>>>>>> 26102019-prod
         this.bank = 0;
         this.played = {};
         this.deathmatch = false;
         this.onEvent = this.onEvent.bind(this);
         this.stop = this.stop.bind(this);
+<<<<<<< HEAD
+=======
+        if(configuration.questions.order === 'random') {
+            this.shuffleQuestions();
+        }
+    }
+
+    shuffleQuestions() {
+        let currentIndex = this.questions.length, temporaryValue, randomIndex;
+
+        // While there remain elements to shuffle...
+        while (0 !== currentIndex) {
+
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        // And swap it with the current element.
+        temporaryValue = this.questions[currentIndex];
+        this.questions[currentIndex] = this.questions[randomIndex];
+        this.questions[randomIndex] = temporaryValue;
+        }
+>>>>>>> 26102019-prod
     }
 
     onEvent(from, event) {
@@ -44,7 +74,11 @@ class Faceoff {
         let reversedPreviousSequence = [...previousSequences];
         reversedPreviousSequence.reverse();
         let previousRound = reversedPreviousSequence.find(seq_elem => seq_elem instanceof Round);
+<<<<<<< HEAD
         this.bank = ( !isNaN(previousRound.bank) ? previousRound.bank : 0 );
+=======
+        this.bank = ( !isNaN(previousRound.totalBank) ? previousRound.totalBank : 0 );
+>>>>>>> 26102019-prod
         this.sendSetUI = game.sendSetUI;
         this.sendEventWithGame = game.sendEventWithGame;
         this.players = [...players];
@@ -53,6 +87,10 @@ class Faceoff {
         this.players.forEach(player => player.changeRound());
         this.players.forEach(player => {
             this.played[player.id] = false;
+<<<<<<< HEAD
+=======
+            this.consecutiveAnswers[player.id] = 0;
+>>>>>>> 26102019-prod
         });
         // If no more players
         if(this.players.length == 0) {
@@ -130,15 +168,23 @@ class Faceoff {
     }
 
     answerCorrect() {
+<<<<<<< HEAD
         // Increase consecutive answers amount
         this.consecutiveAnswers++;
         // Get current player
         let currentPlayer = this.players.shift();
+=======
+        // Get current player
+        let currentPlayer = this.players.shift();
+        // Increase consecutive answers amount
+        this.consecutiveAnswers[currentPlayer.id]++;
+>>>>>>> 26102019-prod
         // Set current player stats
         currentPlayer.currentRoundStats.answer(true, true);
         // Set other players stats
         this.players.forEach(player => player.currentRoundStats.answer(true, false));
         // If we have 5 consecutive answers and we're not in deathmatch
+<<<<<<< HEAD
         if(this.consecutiveAnswers >= 5 && this.deathmatch === false) {
             // Change player
             this.players.push(currentPlayer);
@@ -150,6 +196,14 @@ class Faceoff {
             // Use same player
             this.players.unshift(currentPlayer);
         }
+=======
+        if(this.consecutiveAnswers[currentPlayer.id] >= 5 && this.deathmatch === false) {
+            // Set that the current player played
+            this.played[currentPlayer.id] = true;
+        }
+        // Change player
+        this.players.push(currentPlayer);
+>>>>>>> 26102019-prod
         // Compute player status
         Player.updateStatus(this.players);
         // Check deathmatch
@@ -159,10 +213,17 @@ class Faceoff {
     }
 
     answerWrong() {
+<<<<<<< HEAD
         // Increase consecutive answers amount
         this.consecutiveAnswers++;
         // Get current player
         let currentPlayer = this.players.shift();
+=======
+        // Get current player
+        let currentPlayer = this.players.shift();
+        // Increase consecutive answers amount
+        this.consecutiveAnswers[currentPlayer.id]++;
+>>>>>>> 26102019-prod
         // Set current player stats
         currentPlayer.currentRoundStats.answer(false, true);
         // Set other players stats
@@ -170,6 +231,7 @@ class Faceoff {
             player.currentRoundStats.answer(false, false)
         });
         // If we have 5 consecutive answers and we're not in deathmatch
+<<<<<<< HEAD
         if(this.consecutiveAnswers >= 5 && this.deathmatch === false) {
             // Change player
             this.players.push(currentPlayer);
@@ -181,6 +243,14 @@ class Faceoff {
             // Use same player
             this.players.unshift(currentPlayer);
         }
+=======
+        if(this.consecutiveAnswers[currentPlayer.id] >= 5 && this.deathmatch === false) {
+            // Set that the current player played
+            this.played[currentPlayer.id] = true;
+        }
+        // Change player
+        this.players.push(currentPlayer);
+>>>>>>> 26102019-prod
         // Compute player status
         Player.updateStatus(this.players);
         // Check deathmatch
@@ -247,4 +317,8 @@ class Faceoff {
     }
 }
 
+<<<<<<< HEAD
 module.exports = Faceoff;
+=======
+module.exports = Faceoff;
+>>>>>>> 26102019-prod

@@ -72,6 +72,10 @@ export default class Run extends Component {
                 return true;
             case 'FACEOFF_DEATHMATCH_START':
                 this.setState({deathmatch: true});
+<<<<<<< HEAD
+=======
+                this.context.setContext({inverted: false});
+>>>>>>> 26102019-prod
                 return true;
             case 'ERROR':
                 return true;
@@ -110,7 +114,11 @@ export default class Run extends Component {
                 }
                 return (
                     <Container>
+<<<<<<< HEAD
                         <p>Faceoff</p>
+=======
+                        <p>Faceoff{this.state.deathmatch ? (<span> — <b>Deathmatch</b></span>): ''}</p>
+>>>>>>> 26102019-prod
                         <p><b>{currentSeq.players !== undefined ? currentSeq.players[0].name : ''}</b></p>
                         <p>Question:</p>
                         <p>
@@ -158,4 +166,8 @@ export default class Run extends Component {
             <Container>Waiting...</Container>
         );
     }
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 26102019-prod

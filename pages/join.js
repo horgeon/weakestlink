@@ -44,6 +44,10 @@ export default class Join extends Component {
             case 'GAME_PUSH':
                 this.context.setContext({gameCode: event.gameCode, game: event.game});
                 this.setState({joined: true});
+<<<<<<< HEAD
+=======
+                Router.push('/win');
+>>>>>>> 26102019-prod
                 return true;
         }
         return false;
@@ -184,4 +188,8 @@ export default class Join extends Component {
             </Container>
         );
     }
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 26102019-prod
