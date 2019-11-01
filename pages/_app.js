@@ -135,15 +135,6 @@ export default class GameApp extends App {
                 <Head>
                     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />
                     <link rel='stylesheet' type='text/css' href='/static/nprogress.css' />
-<<<<<<< HEAD
-                </Head>
-                <Segment inverted={this.state.inverted}>
-                    <Dimmer active={this.state.connected}>
-                        <Loader>Connecting...</Loader>
-                    </Dimmer>
-                    <Dimmer active={this.state.loading}>
-                        <Loader />
-=======
 
                 </Head>
                 <style jsx global>{`
@@ -159,16 +150,13 @@ export default class GameApp extends App {
                     </Dimmer>
                     <Dimmer active={this.state.loading} style={{ width: '100%', height: '100%' }}>
                         <Loader style={{ width: '100%', height: '100%' }} />
->>>>>>> 26102019-prod
+            
                     </Dimmer>
                     <div>
                         {this.state.errors}
                     </div>
-<<<<<<< HEAD
-                    <Component {...pageProps} />
-=======
+
                     <Component style={{ width: '100%', height: '100%' }} {...pageProps} />
->>>>>>> 26102019-prod
                 </Segment>
             </UserContext.Provider>
         );
