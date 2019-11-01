@@ -18,11 +18,8 @@ export default class Start extends Component {
 
     componentDidMount() {
         this.context.setOnEvent(this.onEvent);
-<<<<<<< HEAD
-=======
         let currentSeq = this.getCurrentSequence();
         this.context.setContext({bank: currentSeq.bank});
->>>>>>> 26102019-prod
     }
 
     onEvent(event) {
@@ -37,15 +34,12 @@ export default class Start extends Component {
         return false;
     }
 
-<<<<<<< HEAD
-=======
     getCurrentSequence() {
         if(this.context.game !== null && this.context.game.currentSequence !== null)
             return this.context.game.currentSequence;
         return {};
     }
 
->>>>>>> 26102019-prod
     handleSubmit(strongestIsStarting) {
         this.setState({ submitted: true });
         this.context.sendEvent({
@@ -56,25 +50,6 @@ export default class Start extends Component {
     }
 
     render() {
-<<<<<<< HEAD
-        if(this.state.started) {
-            return (
-                <Container>
-                    <p>
-                        Faceoff started...
-                    </p>
-                </Container>
-            );
-        }
-        if(this.context.gameMaster || this.context.gameAssistant) {
-            return (
-                <Container>
-                    Faceoff
-                    <Form inverted loading={this.state.submitted}>
-                        <Button onClick={() => this.handleSubmit(true)}>Strongest start</Button>
-                        <Button onClick={() => this.handleSubmit(false)}>Other start</Button>
-                    </Form>
-=======
         let currentSeq = this.getCurrentSequence();
         if(currentSeq.type === 'FACEOFF') {
             if(this.state.started) {
@@ -118,21 +93,11 @@ export default class Start extends Component {
                     <ul>
                         {stats}
                     </ul>
->>>>>>> 26102019-prod
                 </Container>
             );
         }
         return (
-<<<<<<< HEAD
-            <Container>
-                Faceoff
-            </Container>
-        );
-    }
-};
-=======
             <Container>Waiting...</Container>
         );
     }
 };
->>>>>>> 26102019-prod
