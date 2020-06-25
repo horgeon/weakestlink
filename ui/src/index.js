@@ -1,4 +1,3 @@
-import React from 'react';
 import App from 'next/app';
 import Head from 'next/head'
 import UserContext from './components/UserContext';
@@ -8,10 +7,12 @@ import Router from 'next/router';
 
 import Cookies from 'js-cookie'
 
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import { Segment, Dimmer, Loader, Message } from 'semantic-ui-react'
 //import 'semantic-ui-css/semantic.min.css'
 
-export default class GameApp extends App {
+class GameApp extends Component {
     state = {
         playerId: null,
         game: null,
@@ -152,3 +153,8 @@ export default class GameApp extends App {
         );
     }
 }
+
+ReactDOM.render(
+  <GameApp />,
+  document.getElementById('root')
+);
