@@ -4,12 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "build-watch": "parcel watch ./client/index.html",
-    "start-watch": "NODENV=dev nodemon --nolazy --experimental-modules --stack_trace_limit=200 server.js",
-    "dev": "concurrently --kill-others \"npm run start-watch\" \"npm run build-watch\"",
-    "build": "parcel build ./client/index.html",
-    "start": "NODENV=production nodemon --nolazy --experimental-modules --stack_trace_limit=200 server.js",
-    "start-debug-watch": "NODENV=dev nodemon --nolazy --inspect-brk=9229 --experimental-modules --stack_trace_limit=200 server.js"
+    "install": "cd ui && yarn install",
+    "build-watch": "cd ui && yarn run watch",
+    "start-watch": "cross-env NODE_ENV=development nodemon --nolazy --experimental-modules --stack_trace_limit=200 server.js",
+    "dev": "concurrently --kill-others \"yarn run start-watch\" \"yarn run build-watch\"",
+    "build": "cd ui && yarn run build",
+    "start": "cross-env NODE_ENV=production nodemon --nolazy --experimental-modules --stack_trace_limit=200 server.js",
+    "start-debug-watch": "cross-env NODE_ENV=development nodemon --nolazy --inspect-brk=9229 --experimental-modules --stack_trace_limit=200 server.js"
   },
   "keywords": [],
   "author": "",
@@ -20,16 +21,11 @@
     "js-cookie": "^2.2.1",
     "js-yaml": "^3.13.1",
     "node-persist": "^3.0.5",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-router-dom": "^5.2.0",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.88.1",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4",
-    "parcel-bundler": "^1.12.4"
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.4"
   }
 }
