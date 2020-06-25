@@ -14,6 +14,7 @@ function parseRoundSequence(sequenceIndex, sequenceDescriptionObject, questions)
         number: sequenceDescriptionObject.number,
         duration_s: sequenceDescriptionObject.duration_s,
         bank: sequenceDescriptionObject.bank,
+        questions: questions[sequenceDescriptionObject.number - 1]
         players: sequenceDescriptionObject.players,
         questions: {
             order: sequenceDescriptionObject.questions.order || 'inOrder',
@@ -24,7 +25,10 @@ function parseRoundSequence(sequenceIndex, sequenceDescriptionObject, questions)
 
 function parseFaceoffSequence(sequenceIndex, sequenceDescriptionObject, questions) {
     return new Faceoff({
-        questions: questions['faceoff']
+        questions: {
+            order: sequenceDescriptionObject.questions.order || 'inOrder',
+            map: questions['faceoff']
+        }
     });
 }
 
@@ -67,3 +71,4 @@ module.exports = function() {
     let gameConfiguration = parseConfiguration(config, questions);
     return new Game(gameConfiguration);
 };
+

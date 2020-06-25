@@ -134,7 +134,7 @@ export default class Run extends Component {
                 <Container>
                     <p>Round {this.state.number} — <Duration value={this.state.duration_ms} /></p>
                     <p><b>{currentSeq.players !== undefined ? currentSeq.players[0].name : ''}</b></p>
-                    <BankScale scale={currentSeq.bankGainScale} index={currentSeq.bankGainScaleIndex} />
+                    <BankScale scale={currentSeq.bankGainScale} index={currentSeq.bankGainScaleIndex} isVertical={false} />
                     <p>Bank : {currentSeq.bank}</p>
                 </Container>
             );

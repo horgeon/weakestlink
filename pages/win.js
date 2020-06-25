@@ -12,6 +12,15 @@ export default class Win extends Component {
 
     constructor(props) {
         super(props);
+        this.onEvent = this.onEvent.bind(this);
+    }
+
+    onEvent(event) {
+        switch(event.type) {
+            case 'ERROR':
+                return true;
+        }
+        return false;
     }
 
     componentDidMount() {
@@ -26,6 +35,7 @@ export default class Win extends Component {
                 <Container>
                     The winner is :
                     <p><b>{this.state.winner !== null ? this.state.winner.name : ''}</b></p>
+                    <p>Bank: {this.context.bank}</p>
                 </Container>
             );
         }
@@ -33,6 +43,7 @@ export default class Win extends Component {
             <Container>
                 <p>The winner is :</p>
                 <p><b>{this.state.winner !== null ? this.state.winner.name : ''}</b></p>
+                <p>Bank: {this.context.bank}</p>
             </Container>
         );
     }

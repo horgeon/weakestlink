@@ -18,6 +18,7 @@ class Vote {
             case 'VOTE_PLAYER':
                 this.onVote(from, event);
                 return true;
+
             case 'VOTE_PLAYER_ADD':
                 this.votes[event.votedPlayerId]++;
                 this.sendEventWithGame({
@@ -117,7 +118,7 @@ class Vote {
                     }
                 });
             });
-        }
+        });
         console.log(this.excludedPlayers);
         this.sendSetUI('/vote/reveal');
     }

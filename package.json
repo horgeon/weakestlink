@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "NODENV=dev node --nolazy --experimental-modules --stack_trace_limit=200 server.js",
-    "debug": "NODENV=dev node --nolazy --inspect-brk=9229 --experimental-modules --stack_trace_limit=200 server.js"
+    "release": "NODE_ENV=production node --nolazy --experimental-modules server.js",
+    "dev": "NODE_ENV=dev node --nolazy --experimental-modules --stack_trace_limit=200 server.js",
+    "debug": "NODE_ENV=dev node --nolazy --inspect-brk=9229 --experimental-modules --stack_trace_limit=200 server.js"
   },
   "keywords": [],
   "author": "",
@@ -19,8 +20,8 @@
     "js-yaml": "^3.13.1",
     "next": "^9.0.5",
     "node-persist": "^3.0.5",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.1",
     "socket.io": "^2.3.0"

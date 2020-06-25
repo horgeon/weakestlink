@@ -72,6 +72,7 @@ export default class Run extends Component {
                 return true;
             case 'FACEOFF_DEATHMATCH_START':
                 this.setState({deathmatch: true});
+                this.context.setContext({inverted: false});
                 return true;
             case 'ERROR':
                 return true;
@@ -110,7 +111,7 @@ export default class Run extends Component {
                 }
                 return (
                     <Container>
-                        <p>Faceoff</p>
+                        <p>Faceoff{this.state.deathmatch ? (<span> — <b>Deathmatch</b></span>): ''}</p>
                         <p><b>{currentSeq.players !== undefined ? currentSeq.players[0].name : ''}</b></p>
                         <p>Question:</p>
                         <p>

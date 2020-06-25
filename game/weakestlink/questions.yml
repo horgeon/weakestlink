@@ -1,4 +1,5 @@
 0:
+<<<<<<< HEAD
   - q: Test1
     a: Answer1
   - q: Test2
@@ -39,3 +40,2007 @@ faceoff:
     a: Answer4
   - q: Test5
     a: Answer5
+=======
+  - q: Quel est le pays le plus peuplé au monde?
+    a: La Chine
+  - q: En 1990 au cinéma, qui est l'inoubliable Cyrano de Bergerac?
+    a: Gérard Depardieu
+  - q: Quelle est la couleur d'un ciel azur?
+    a: Bleu
+  - q: Quel empereur français a perdu la bataille de Waterloo?
+    a: Napoléon Ier
+  - q: Pour Claude François, quel jour est quelque chose que l'on aura jamais?
+    a: Le lundi au soleil
+  - q: A quelle partie du corps le mot nasal fait-il référence?
+    a: Le nez
+  - q: Quel mot se dit "teuf" en verlan?
+    a: Fête
+  - q: En quelle matière sont faites les défenses d'éléphants?
+    a: En ivoire
+  - q: Quelle est la langue officielle de la Principauté de Monaco?
+    a: Le Français
+  - q: A la Belote, quelles cartes sont symbolisées par un losange rouge?
+    a: Les carreaux
+  - q: En 2021, quel train rapide fètera ses 40 ans d'existence?
+    a: Le T.G.V.
+  - q: Quel vélo a deux selles et deux pédaliers?
+    a: Un tandem
+  - q: Au cinéma, quel animal est Stuart Little?
+    a: Une souris
+  - q: Quelle émission de sport automobile créée en 1975 est diffusé les dimanches matin?
+    a: Automoto
+  - q: Dans Blanche Neige, quel nain porte un nom évoquant sa bonne humeur?
+    a: Joyeux
+  - q: Quel est le point culminant de la France?
+    a: Le Mont-Blanc
+  - q: Quelle épée est l'un des deux symboles de la justice?
+    a: Glaive
+  - q: Quelle heure de l'après-midi a donné son nom au traditionnel goûter des enfants?
+    a: Le 4 heures
+  - q: Dans les horoscopes, quel signe du zodiaque débute l'année astrologique?
+    a: Bélier
+  - q: A combien de litres correspond un mètre cube d'eau?
+    a: 1000
+  - q: Quel chauffeur de taxi au foulard à pois rouges vit au Pays des Jouets?
+    a: Oui-Oui
+  - q: Sur un distributeur de billets, que signifie le sigle H.S. ?
+    a: Hors Service
+  - q: Complétez ce slogan "Métro, Boulot, ...."
+    a: Dodo
+  - q: Au cinéma, quel petit héros africain de dessin animé n'est pas grand mais vaillant?
+    a: Kirikou
+  - q: En géométrie, quel nom de 4 lettres désigne la superficie d'un carré?
+    a: Aire
+  - q: D'après son nom, quelle est la durée du contrat de travail appelé C.D.I. ?
+    a: Indeterminée
+  - q: Quel musée parisien est considéré comme le plus grand musée de monde?
+    a: Le Louvre
+  - q: Quel adjectif qualifie l'acier résistant à la rouille?
+    a: Inoxydable
+  - q: En 1986, quelle princesse a cartonné au Top 50 avec son titre "Ouragan"?
+    a: Stéphanie de Monaco
+  - q: Quel magicien du ballon rond a prété son nom à un verbe?
+    a: Zlatan
+  - q: On peut jeter son vieux fer à repasser dans la poubelle des journaux, vrai ou faux?
+    a: Vrai
+  - q: Si on est abonné à un magazine bimestriel, combien d'exemplaires reçoit-on dans l'année?
+    a: 6
+  - q: Selon le proverbe, de quel animal ne doit-on pas vendre la peau avant de l'avoir tué?
+    a: De l'ours
+  - q: A Paris, quel musée national porte le nom d'un ancien Président de la République?
+    a: Le Centre Pompidou / Musée du Quai Branly - Jacques Chirac
+  - q: Pour que les poils repoussent moins vite, faut-il s'épiler à la cire ou à la crème dépilatoire?
+    a: A la cire
+  - q: Quel nom rimant avec "digeste" donne-t-on au petit somme que l'on fait après le déjeuner?
+    a: Une sieste
+  - q: Sur le clavier AZERTY, quelle lettre se situe entre le R et le Y?
+    a: Le T
+  - q: Dans les aventures de Tintin, quel personnage est surnommé le rossignol milanais?
+    a: La castafiore
+  - q: A l'école primaire, quelle classe vient juste après le CE2?
+    a: Le CM1
+  - q: Sur un plateau de cinéma, quelle petite ardoise noire et blanche fait-on claquer au début d'une prise?
+    a: Le clap
+  - q: Dans quel pays les Wallons et les Flamands cohabitent-ils?
+    a: La Belgique
+  - q: Les ambidextres sont des personnes qui ont deux mains droites, vrai ou faux?
+    a: Faux
+  - q: D'après la Bible, dans quel jardin Adam et Eve ont-ils croqué le fruit défendu?
+    a: L'Eden / Le Paradis
+  - q: Selon l'expression, quel animal pose-t-on à quelqu'un qu'on plante à un rendez-vous?
+    a: Un lapin
+  - q: A la Belote, quel carte vaut toujours onze points?
+    a: L'As
+  - q: Quel département français est le seul dont le nom commence par la lettre F ?
+    a: Le Finistère
+  - q: En ski alpin, quelle couleur associe-t-on aux pistes plus difficiles que les vertes mais plus faciles que les rouges?
+    a: Les bleues
+  - q: Dans quelle saga du cinéma George Clooney et sa bande cambriolent des casinos?
+    a: Ocean's
+  - q: Quel accessoire de toilettes peut être à ongles, à cheveux ou à dents?
+    a: Une brosse
+  - q: D'après son nom, de quelle couleur est la matière du cerveau qui forme le cortex cérébral?
+    a: Grise
+  - q: L'écriture intuitive qui permet de rédiger rapidement un SMS est le mode ABC ou T9?
+    a: T9
+  - q: En 2001, dans quel océan la station spatiale Mir a-t-elle fini sa carrière?
+    a: L'Océan Pacifique
+  - q: Au menu d'une brasserie, comment appelle-t-on un steak haché surmonté d'un oeuf au plat?
+    a: Un steak à cheval
+  - q: Pour un Schtroumpf, quelle pièce de Molière s'appellerait "Les Schtroumpferies de Scapin"?
+    a: Les Fourberies de Scapin
+  - q: Quel signe de ponctuation repété trois fois peut remplacer l'expression "Et caetera" ?
+    a: Le point
+  - q: Au ski, lorsqu'on descend "tout schuss" va-t-on très vite ou très lentement?
+    a: Très vite
+  - q: Dans le domaine de la banque, que signifie le sigle R.I.B.?
+    a: Relevé d'identité bancaire
+  - q: Comment appelle-t-on un cheeseburger sans fromage?
+    a: Un hamburger
+  - q: Le premier Homme à marcher sur la Lune était Lance Armstrong, vrai ou faux?
+    a: Faux, Neil Armstrong
+  - q: Chez Disney, quelle princesse à la longue chevelure magique se defend à coup de poêle à frire?
+    a: Raiponce
+  - q: Actuellement, combien d'Etats membres l'Union européenne compte-elle?
+    a: 28
+  - q: Sur quel continent le tigre vit-il à l'état sauvage?
+    a: Asie
+  - q: Quelle date du calendrier ne revient qu'une fois tous les 4 ans?
+    a: Le 29 février
+  - q: Quel lama est devenu célèbre après que 5 fêtards l'ait enlevé en ville?
+    a: Serge le Lama
+  - q: Quelle sorte d'arbre figure sur nos panneaux indiquant une aire de pique-nique?
+    a: Sapin
+  - q: Quelle O.N.G. au nom anglais signifie "la paix verte" en français?
+    a: Greenpeace
+  - q: Quel quartier imaginaire de Marseille est le décor de "Plus Belle la Vie"?
+    a: Le Mistral
+  - q: De quelle couleur sont les taches du Marsupilami?
+    a: Noires
+  - q: Quel justicier masqué signe d'un Z à la pointe de l'épée?
+    a: Zorro
+  - q: Selon la croyance, de quel plat dit-on qu'il fait grandir les enfants?
+    a: La soupe
+  - q: Au poker, combien de cartes de même valeur forment un carré?
+    a: 4
+  - q: Que signifie la lettre D quand on parle d'un film en 3D?
+    a: Dimension
+  - q: Sur quelle petite pointe du rosier peut-on se blesser en cueillant une fleur?
+    a: L'épine
+  - q: Dans quelle ville la Canebière vous conduit-elle au Vieux Port?
+    a: Marseille
+  - q: Quel liquide un brumisateur permet-il de pulvériser sur la peau?
+    a: De l'eau
+  - q: En 1965, quel groupe de rock chante "Satisfaction"?
+    a: Les Rolling-Stones
+  - q: A quel jour de la semaine associe-t-on le jour férié de l'Ascension?
+    a: Le jeudi
+  - q: Quel produit coloré se met-on sur les ongles pour les embellir?
+    a: Du vernis
+  - q: Quelle ville californienne a pour diminutif "LA"?
+    a: Los Angeles
+  - q: Traditionnellement, au bras de quelle personne la mariée entre-t-elle dans l'église?
+    a: De son père
+  - q: De quelle couleur est la peau des Schtroumpfs?
+    a: Bleue
+  - q: Avec combien de mains un athlète doit-il tenir la perche pour sauter?
+    a: 2
+  - q: Complétez cette phrase du Petit Prince de Saint-Exupéry "Dessine-moi un ..."
+    a: Mouton
+  - q: Quel insigne à plusieurs branches un Sheriff porte-t-il sur sa chemise?
+    a: Une étoile
+  - q: Avec quelle scie à chaîne et à moteur les bûcherons abattent-ils les arbres?
+    a: La tronçonneuse
+  - q: Au rugby, quel carton l'arbitre brandit-il pour expulser définitivement un joueur?
+    a: Rouge
+  - q: Quelle signature les fans demandent-ils à leur chanteur préféré?
+    a: Un autographe
+  - q: Dans les années 1950, quel âge était celui de la majorité légale?
+    a: 21
+  - q: Quel océan borde la Charente-Maritime?
+    a: L'Océan Atlantique
+  - q: Dans le dessin animé, sur quel objet volant Aladin voyage-t-il?
+    a: Un tapis
+  - q: Quelle est la douzième heure après midi?
+    a: Minuit
+  - q: Dans quelle main la Statue de la Liberté tient-elle une tablette?
+    a: La main gauche
+  - q: Combien y a-t-il de sillons sur la face d'un 45 tours?
+    a: 1
+  - q: Quel petit accessoire relié à un ordinateur sert à cliquer?
+    a: La souris
+  - q: Au théâtre, par combien d'acteurs un monologue est-il récité?
+    a: 1
+  - q: Lors de quel millénaire Marie Antoinette a-t-elle été Reine de France?
+    a: Le 2ème
+  - q: Dans quelle ville italienne peut-on admirer la célèbre Tour de Pise?
+    a: A Pise
+  - q: Pendant combien d'années François Mitterand a-t-il été Président de la République Française?
+    a: 14
+  - q: Quel saint célébré le 14 février est associé à la fête des amoureux?
+    a: La Saint Valentin
+  - q: Quel nom de grade militaire donne-t-on aussi au chef d'une équipe sportive?
+    a: Capitaine
+  - q: Complétez cette chanson enfantine "Il pleut, il mouille, c'est la fête à la ..."
+    a: Grenouille
+  - q: Quelle couleur affichée par un feu tricolore signifie à l'automobiliste une interdiction de passer?
+    a: Le rouge
+  - q: Dans la religion chrétienne, quel jour désigne-t-on comme le jour du Seigneur?
+    a: Le Dimanche
+  - q: Si un bébé a besoin d'être changé 3 fois par jour, combien de couches doit-on utiliser par semaine?
+    a: 21
+  - q: En compétition, quelle est la couleur officielle d'une balle de tennis?
+    a: Jaune
+  - q: En cuisine, mélangé au sucre, quel est l'ingrédient de base de la meringue?
+    a: Le blanc d'oeuf
+  - q: Dans un immeuble de 8 étages, quel étage se trouve juste au-dessus du 3ème?
+    a: Le 4ème
+  - q: Quelle république des Antilles a pour capitale Port- au-Prince?
+    a: Haïti
+  - q: Le 3 septembre 1939, à quel pays la France déclara-t-elle la guerre?
+    a: L'Allemagne
+  - q: Quel mot désigne la bouche cornée des oiseaux?
+    a: Le bed
+  - q: Quel est le plus petit billet en euros?
+    a: 5€
+  - q: De quelle couleur est le bonnet du Grand Schtroumpf?
+    a: Rouge
+  - q: Quel accessoire les rappeurs appellent-ils le "mic"?
+    a: Le micro
+  - q: Quel mardi est le dernier jour du carnaval?
+    a: Le mardi-gras
+  - q: Quel accessoire du sommelier évoque la queue d'un cochon?
+    a: Le tire-bouchon
+  - q: Quel de nom de 2 syllabes identiques désigne l'élève préféré de la maîtresse?
+    a: Le chouchou
+  - q: Dans notre hémisphère, durant quel mois a lieu le solstice d'été?
+    a: Juin
+  - q: Dans quelle roche la Vénus de Milo a-t-elle été sculptée?
+    a: Le marbre
+  - q: En arithmétique, quelle opération a pour symbole deux points ":"?
+    a: La division
+  - q: Quel acteur est surnommé Schwarzzy?
+    a: Arnold Schwarzenegger
+  - q: A l'école, quel adjectif qualifie le calcul rapide que l'on doit effectuer de tête?
+    a: Le calcul mental
+  - q: Quelle partie de l'oeuf utilise-t-on pour préparer une mayonnaise?
+    a: Le jaune
+  - q: Selon la croyance, quel astre influencerait la repousse des cheveux?
+    a: La Lune
+  - q: Quel métal a pour symbole chimique les lettres Fe?
+    a: Le Fer
+  - q: Aux J.O., quelle course une athlète peut-elle gagner en moins de 11 secondes?
+    a: Le 100 mètres
+  - q: Quelle mer baigne l'île de Chypre?
+    a: La mer méditerranée
+  - q: Quel mot rimant avec "tournis" désigne une torsion du cou?
+    a: Torticolis
+  - q: Quel grain de maïs soufflé mange-t-on au cinéma?
+    a: Le pop-corn
+  - q: Sur le bord de la route, quel principe consiste à lever le pouce pour voyager?
+    a: L'auto-stop
+  - q: Quelle est la capitale de la Russie?
+    a: Moscou
+  - q: La couleur du ketchup est-elle rouge ou verte?
+    a: Rouge
+  - q: Le judoka est un jeu japonais consistant à déplacer les balles avec des bâtons, vrai ou faux?
+    a: Faux
+  - q: Selon l'expression, de quel animal une personne frissonant de froid a-t-elle la chair?
+    a: De poule
+  - q: De quel nom de figure géométrique, l'adjectif "triangulaire" est-il dérivé?
+    a: Le triangle
+  - q: De la Lune ou de la Terre, quel astre est le plus petit?
+    a: La Lune
+  - q: Comment appelle-t-on la perte plus ou moins complète et définitive des cheveux?
+    a: La calvitie
+  - q: Quelle souris de dessin animé coiffée d'un sombrero est capable de se déplacer à grande vitesse?
+    a: Speedy Gonzales
+1:
+  - q: Quelle unité de mesure électrique doit son nom au physicien Alessandro Volta?
+    a: Le Volt
+  - q: Comment appelle-t-on un spationaute russe?
+    a: Un cosmonaute
+  - q: Le matin, combien de chaussures une maman de quadruplets doit-elle lacer?
+    a: 8 (ou 10 si tu veux la jouer bâtard)
+  - q: Sous quel meuble se cache celui qui attribue les parts de la galette des rois?
+    a: La table
+  - q: Avec la Lune, quel astre influence les marées?
+    a: Le Soleil
+  - q: En bord de plage, avec quelle nageoire triangulaire un requin terrifie-t-il les nageurs?
+    a: Un aileron
+  - q: En 2007, quel ancien footballeur est devenu président de l'UEFA?
+    a: Michel Platini
+  - q: Chez le médecin, quelle règle verticale munie d'un index coulissant sert à mesurer la taille?
+    a: La toise
+  - q: Au snooker, de quelle couleur est la bille que l'on doit rentrer en dernier?
+    a: Noire
+  - q: Dans quelle célèbre prison proche de San Francisco Al Capone a-t-il été incarcéré?
+    a: Alcatraz
+  - q: Pour faire un revers, un tennisman droitier frappe-t-il à sa gauche ou à sa droite?
+    a: A sa gauche
+  - q: La planète Vénus est visible à l'oeil nu, vrai ou faux?
+    a: Vrai
+  - q: Qu'est-ce qui peut être de riz dans l'assiette, de beauté dans le cou et de folie dans la tête?
+    a: Le grain
+  - q: Quel grand oiseau marin de l'Antarctique est incapable de voler?
+    a: Le manchot
+  - q: Quel petit appareil électroménager est conçu pour fabriquer des crèmes glacées?
+    a: Une sorbetière
+  - q: De quel fleur le Petit Prince de Saint-Exupéry est-il amoureux?
+    a: Une rose
+  - q: Quel médecin peut vous prescrire des lentilles de contact?
+    a: Un ophtalomologue
+  - q: Pour jouer aux chaises musicales à 9, combien de chaises faut-il en début de partie?
+    a: 8
+  - q: La tour de Pise a volontairement été construite penchée, vrai ou faux?
+    a: Faux
+  - q: Quel ancien Président de la République repose à Colombey-les-Deux-Eglises?
+    a: Charles de Gaulle
+  - q: Dans la mythologie, Eole est-il le dieu des pluies ou des vents?
+    a: Des vents
+  - q: Quels disques de fonte réunis par une barre d'acier certains athlètes soulèvent-ils à bout de bras?
+    a: Un haltère
+  - q: Dans le langage SMS, quelle expression est abrégée par les lettres MDR?
+    a: Mort de rire
+  - q: Quelle superhéroine possède un lasso magique et des bracelets ultra résistants?
+    a: Wonder Woman
+  - q: Si vous coupez un gâteau en 8 parts égales et que vous en mangez 2, combien de parts reste-t-il?
+    a: 6
+  - q: Quel est le verbe conjugé dans la phrase "Il a pris une douche"?
+    a: Prendre
+  - q: Dans quel pays peut-on se la couler douce sur l'île de Djerba?
+    a: La Tunisie
+  - q: De quel fruit vert et acidulé la Grammy Smith est-elle une variété?
+    a: La pomme
+  - q: Au jeu de tarot, quel bout est la carte d'atout la plus forte?
+    a: Le 21
+  - q: Quel présentateur télé a présenté plus de 600 Miss depuis plus de 20 ans?
+    a: Jean-Pierre Foucault
+  - q: Sur certains panneaux routiers actuels, il est possible de voir un train à vapeur. Vrai ou faux?
+    a: Vrai
+  - q: Quel petit animal portant un noeud papillon est l'emblème du magazine Playboy?
+    a: Un lapin
+  - q: Quel impôt sur son logement doit-on payer que l'on soit propriétaire ou locataire?
+    a: La taxe d'habitation
+  - q: Quels bonbons à la menthe sont la spécialité de la ville de Cambrai?
+    a: Les bêtises
+  - q: Lorsqu'on compose le 18, appelle-t-on les pompiers ou la police?
+    a: Les pompiers
+  - q: Sur quelle estrade à 3 places montent les vainqueurs des J.O.?
+    a: Le podium
+  - q: Chez l'Homme, comment appelle-t-on les doigts de pieds?
+    a: Les orteils
+  - q: Combien y a-t-il de secondes dans 20 minutes?
+    a: 1200
+  - q: Quelle est la couleur du rectangle situé au milieu du panneau "Sens interdit"?
+    a: Blanc
+  - q: Complétez le titre de l'oeuvre de Marcel Proust "A la recherche du temps ..."
+    a: Perdu
+  - q: Au cinéma, quel aventurier incarné par Harrison Ford se lance à la recherche du Graal avec son père?
+    a: Indiana Jones
+  - q: Quel élément chimique de symbole Cl nous pique les yeux quand on va à la piscine?
+    a: Le chlore
+  - q: De combien de départements la Corse est-elle composée?
+    a: 2
+  - q: Quel génie de la musique classique figure sur les pièces autrichiennes de 1€?
+    a: Mozart
+  - q: Dans quel jeu télé peut-on faire découvrir un mot en 3 briques?
+    a: Pyramide
+  - q: Selon l'expression, quelqu'un de tout petit est "haut comme 3 ..."?
+    a: Pommes
+  - q: Quel nom de petit singe nous aide à sourire sur les photos?
+    a: Ouistiti
+  - q: Si on a horreur des tomates, choisit-on plutôt des pâtes à la carbonara ou à la bolognaise?
+    a: Carbonara
+  - q: Quelle lettre majuscule est spécifiquement associée au permis moto?
+    a: A
+  - q: Dans quel film Rose et Jack font-ils l'amour dans une voiture garée dans les cales d'un paquebot?
+    a: Titanic
+  - q: En B.D., quel objet dessiné au-dessus d'une tête symbolise une idée lumineuse?
+    a: Une ampoule
+  - q: Quel résultat obtient-on si l'on additionne deux faces opposées d'un dé à jouer?
+    a: 7
+  - q: De quelle planète le robot Curiosity nous envoie-t-il des clichés depuis 2012?
+    a: Mars
+  - q: La monnaie officielle du Panama est-elle le Rocky ou le Balboa?
+    a: Le Balboa
+  - q: Dans quel sport de ballon les 5 joueurs qui débutent le match sont appelés "les 5 majeurs"?
+    a: Le basket-ball
+  - q: En téléphone mobile, que signifie le G du sigle 4G?
+    a: Génération
+  - q: Celles de Dany Boon sont décollées, Van Gogh s'en est coupé une. De quoi s'agit-il?
+    a: Les oreilles
+  - q: Quel condiment, craint par les vampires, est nécéssaire à la fabrication du beurre d'escargot?
+    a: L'ail
+  - q: Dans quel jeu télé peut-on voir Passe Partout courant avec un gros trousseau de clés?
+    a: Fort Boyard
+  - q: Quel mois d'été est commun aux signes du Lion et de la Vierge?
+    a: Août
+  - q: François Hollande porte-t-il ses lunettes sur son portait officiel?
+    a: Oui
+  - q: Dans quel musée se déroule le début du roman Da Vinci Code?
+    a: Le Louvre
+  - q: Quelle est la couleur du rond situé au centre du drapeau japonais?
+    a: Rouge
+  - q: Pour jouer aux chaises musicales classiques, faut-il plus de joueurs ou de chaises?
+    a: De joueurs
+  - q: Dans quel clip tourné dans les rues de Bruxelles Stromae fait-il semblant d'être ivre?
+    a: Formidable
+  - q: Quel est le seul pays baigné par la mer du Nord et la Méditerranée?
+    a: La France
+  - q: Une encre incolore apparaissant sous l'effet de la chaleur est-elle sympathique ou antipathique?
+    a: Sympathique
+  - q: Quel ancêtre chinois de la calculatrice est composé de billes coulissant sur des tiges?
+    a: Le boulier
+  - q: Le chlorure de sodium est utilisé pour l'assaisonnement des plats, vrai ou faux?
+    a: Vrai, c'est le sel de table
+  - q: En 3 lettres, quel sigle désigne le réseau de train desservant Paris et sa banlieue?
+    a: R.E.R.
+  - q: Quelle canne le skieur plante-t-il dans la neige pour tourner?
+    a: Un bâton
+  - q: Traditionnellement, quelle fleur à clochettes offre-t-on le 1er mai?
+    a: Le muguet
+  - q: Au verso de chaque billet en euro voit-on un pont ou une tour?
+    a: Un pont
+  - q: Quel président de l'Union Soviétique avait-une tache sur le haut du front?
+    a: Gorbatchev
+  - q: Le roi Dagobert a vraiment existé, vrai ou faux?
+    a: Vrai
+  - q: En 2005, dans quel dessin animé le lion Alex s'échappe-t-il d'un zoo à New York?
+    a: Madagascar
+  - q: Dans un chili con carne, le chili est-il la viande, le piment ou le haricot?
+    a: Le piment
+  - q: Quand il désigne une intention, combien de E comporte le mot "dessein"?
+    a: 2
+  - q: Dans la cour de récréation, pour faire une pause pendant le jeu, quel nom de doigt les enfants crient-ils?
+    a: Pouce
+  - q: De quel quatuor comique Alain Chabat faisait-il partie?
+    a: Les Nuls
+  - q: Dans l'Amérique des années 1920, quel nom portait l'interdiction de vente d'alcool?
+    a: La prohibition
+  - q: Lequel des deux fût créé en premier, le SMIG ou le SMIC?
+    a: Le SMIG en 1950 (le SMIC en 1970)
+  - q: Quel nom désigne à la fois une boisson chaude et un train rapide?
+    a: Un express / Le Thé GV #LOL
+  - q: Quand le soleil est proche de l'horizon, l'ombre d'un bâton est-elle plus longue ou plus courte?
+    a: Longue
+  - q: De quelle petite graine le nougat chinois est-il traditionnellement recouvert?
+    a: De sésame
+  - q: Quelle ville est le siège de la Commission européenne?
+    a: Bruxelles
+  - q: Quel nom désigne à la fois un partie du corps et les syllabes d'un alexandrin?
+    a: Le pied
+  - q: Quel jeu des années 1950 consiste à faire tourner un cerceau en plastique autour de la taille?
+    a: Le hula-hoop
+  - q: Pour faire un voeu souffle-t-on sur la fleur ou le fruit du pissenlit?
+    a: Le fruit
+  - q: Le nom de Potomac designe-t-il un dieu inca ou un fleuve des Etats-Unis?
+    a: Fleuve des Etats-Unis
+  - q: La grenouillère est le petit de la grenouille, vrai ou faux?
+    a: Faux
+  - q: Quel mot commençant par B désigne une voiture tout-terrain, sans toit, à pneus larges et à moteur arrière?
+    a: Un buggy
+  - q: Quel nom spécifique donne-t-on aux canines pointues des animaux carnivores?
+    a: Les crocs
+  - q: Avant une opération, quel médecin spécalisé plonge le patient dans un sommeil artificiel?
+    a: L'anesthésiste
+  - q: Le bobsleigh est un sport réservé aux hommes, vrai ou faux?
+    a: Faux
+  - q: En Afrique du Nord, quelle saucisse pimentée à base de boeuf et de mouton garnit le couscous?
+    a: La merguez
+  - q: Selon le titre de ce roman de Jules Verne, les héros voyagent-ils 5 semaines en ballon ou en sous-marin?
+    a: En ballon
+  - q: Avec quel lecteur automatique de disque installé généralement dans les cafés peut-on sélectionner de la musique?
+    a: Un jukebox
+  - q: Certains iguanes peuvent mesurer près de 2 mètres de long, vrai ou faux?
+    a: Vrai
+  - q: Quel département français évoque par son nom le résultat en arithmétique de l'addition?
+    a: La Somme
+  - q: Dans le conte de Perrault, combien la belle-mère de Cendrillon a-t-elle d'enfants?
+    a: 2
+  - q: Un insecticide est un animal qui se nourrit principalement d'insectes, vrai ou faux?
+    a: Faux
+  - q: Sur un vêtement, qu'est-ce qui peut être "mao", "claudine" ou "cheminée"?
+    a: Le col
+  - q: Quelle ville italienne est mondialement célèbre pour ses canaux et ses gondoles?
+    a: Venise
+  - q: Dans les albums d'Astérix, quel druide prépare la fameuse potion magique?
+    a: Panoramix
+  - q: Dans quel sport automobile Lewis Hamilton remporte-t-il des grands prix?
+    a: La Formule 1
+  - q: Porto est la capitale du Portugal, vrai ou faux?
+    a: Faux, c'est Lisbonne
+  - q: En littérature enfantine, quel pantin au bonnet à clochettes est chaffeur de taxi?
+    a: Oui-Oui
+  - q: Quelle couleur un peinture doit-il mélanger à du blanc pour obtenir du rose?
+    a: Rouge
+  - q: Quel nom commençant par un P désigne une maison de banlieue?
+    a: Un pavillon
+  - q: Chez l'Homme, dans quelle poche en forme de J se fait une partie de la digestion?
+    a: L'estomac
+  - q: Comment les Romains appelaient-ils le héros grec Hérakles?
+    a: Hercules
+  - q: Quelle partie d'un marguerite effeuille-t-on pour savoir si on nous aime à la folie?
+    a: Les pétales
+  - q: Avec quoi les chaméléons attrapent-ils leurs proies?
+    a: Leur langue
+  - q: Quelle ville italienne surnomme-t-on la cité des Doges?
+    a: Venise
+  - q: Les compagnons du Tour de France sont-ils cyclistes ou artisans?
+    a: Artisans
+  - q: Au cours de quel siècle s'est déroulée la bataille de Marignan?
+    a: XVIème
+  - q: Le gypse est une danse tzigane, vrai ou faux?
+    a: Faux, c'est une roche calcaire
+  - q: Quand le Soleil est au plus haut, quel point cardinal indique-t-il?
+    a: Le Sud
+  - q: Le panneau "Sens interdit" est-il rond ou octogonal?
+    a: Rond
+  - q: Avec quelles céréales prépare-t-on traditionnellement le taboulé?
+    a: Le blé
+  - q: En français, sur quelle voyelle peut-on mettre un accent aigu?
+    a: Le E
+  - q: Quel sport se joue sans filet? Le squash ou le badminton?
+    a: Le squash
+  - q: Dans quel département se trouvait le château de la Star Academy?
+    a: La Seine-et-Marne
+  - q: Sur le tableau de la Joconde, on peut trouver la signature de Léonard de Vinci. Vrai ou faux?
+    a: Faux
+  - q: Lesquels sont apparus en premiers, les dinosaures ou les poissons?
+    a: Les poissons
+  - q: Quel nom composé désigne le cadre métallique servant de support fixé au-dessus de la roue arrière d'un vélo?
+    a: Le porte-bagages
+  - q: A table, quelle partie de l'agneau mange-t-on quand on déguste un gigot?
+    a: La cuisse
+  - q: Quel nom commençant par M porte le jeu consistant à pousser à cloche-pieds un palet dans des cases numérotées?
+    a: La marelle
+  - q: A combien de millimètres équivaut un centimètre?
+    a: 10
+  - q: Pointe-à-Pitre est une ville située en Martinique, vrai ou faux?
+    a: Faux, c'est en Guadeloupe
+  - q: En dessus de quelle valeur un nombre est-il négatif?
+    a: 0
+  - q: Comment s'appelle la tour d'une mosquée?
+    a: Le minaret
+  - q: Elles peuvent être à jouer, postales, bancaires ou de visite. De quoi s'agit-il?
+    a: De cartes
+  - q: Quel océan borde les côtes du Portugal?
+    a: L'océan Atlantique
+  - q: Quel animal est la femelle du dindon?
+    a: La dinde
+2:
+  - q: En Europe, quel point cardinal l'aiguille aimantée d'une boussole indique-t-elle?
+    a: Le Nord
+  - q: Coco, l'ami de Winnie l'Ourson, est un perroquet. Vrai ou faux
+    a: Faux, Coco Lapin
+  - q: En quelle année la Première guerre mondiale a-t-elle débuté?
+    a: 1914
+  - q: Le baiser esquimau consiste-t-il à se frotter le nez ou à cligner des paupières?
+    a: A se frotter le nez
+  - q: Dans quel film de Luc Besson un garçon doit-il affronter M le maudit?
+    a: Arthur et les Minimoys
+  - q: En Formule 1, dans quel pays européen le Grand Prix de Silverstone se dispute-t-il?
+    a: En Grande-Bretagne
+  - q: En verlan, qui est la soeur de ta "reum"?
+    a: Ta tante
+  - q: Les numéros inscrits sur les pinceaux d'un artiste indiquent-ils leur largeur ou leur longueur?
+    a: Leur largeur
+  - q: Un odontomètre est un appareil qui sert à compter les dents des timbres, vrai ou faux?
+    a: Vrai
+  - q: 2 à la puissance 3 est-il égal à 6 ou 8?
+    a: 8
+  - q: A quel écrivain doit-on les aventures de Tom Sawyer?
+    a: Mark Twain
+  - q: Quelle unité de mesure du son a pour symbole dB?
+    a: Décibel
+  - q: Quel habit féminin évoque-t-on pour parler de la couleur d'un cheval?
+    a: Une robe
+  - q: Le programme européen permettant de suivre une année d'études à l'étranger s'appelle-t-il Erasmus ou Machiavel?
+    a: Erasmus
+  - q: Quelle matière première est la nourriture préférée des termites?
+    a: Le bois
+  - q: Au cinéma, quel est le lien de parenté des Demoiselles de Rochefort?
+    a: Soeurs
+  - q: En 1889, qui a peint le tableau intitulé "La chambre de Vincent à Arles"?
+    a: Vincent van Gogh
+  - q: Quel est le plus haut grade de la Marine nationale?
+    a: Amiral
+  - q: Au Monopoly classique, quel objet figure sur la case "Compagnie de distribution d'éléctricité"?
+    a: Une ampoule
+  - q: En informatique, comment appelle-t-on le courrier électronique?
+    a: Un e-mail
+  - q: Qu'est-ce que le chalut d'un chalutier?
+    a: Le filet
+  - q: Dans la bande dessinée Boule et Bill, lequel des deux est le chien?
+    a: Bill
+  - q: En BD, quel héros blond à moustache doit-on à l'imagination de Goscinny et Uderzo?
+    a: Astérix
+  - q: En langue française, dit-on un ou une anchois?
+    a: Un
+  - q: Dans le Seigneur des anneaux, quelle affreuse créature est accro à son précieux?
+    a: Gollum
+  - q: Lors d'un baiser fougueux, quel organe du goût s'agite en activant ses 17 muscles?
+    a: La langue
+  - q: Dans l'Antiquité, quel savant se serait écrié "Eurêka!" en sortant de son bain?
+    a: Archimède
+  - q: Comment appelle-t-on le petit tube gratuit qui permet de tester un parfum?
+    a: Un échantillon
+  - q: En France, lequel de ces fleuves s'écoule du Sud vers le Nord? La Garonne ou le Rhin
+    a: Les deux (#piege)
+  - q: En athlétisme, quel nom de petit oiseau donne-t-on aux jeunes sportifs de moins de 11 ans?
+    a: Les poussins
+  - q: D'après le titre du roman de Jules Verne, en combien de jours Philéas Fogg fait-il le tour du monde?
+    a: 80
+  - q: Avec quel légume cru et vert prépare-t-on un Tzatziki traditionnel?
+    a: Le concombre
+  - q: Quelle abréviation désigne le médecin spécialiste des oreilles, du nez et de la gorge?
+    a: ORL
+  - q: A la fête foraine, les autotamponneuses fonctionnent-elles à l'essence ou à l'électricité?
+    a: A l'électricité
+  - q: Au collège, quand on a choisi de suivre des cours d'Anglais de L.V.1, que signifie le V de L.V.1?
+    a: Vivante
+  - q: En calcul, quelle opération a pour symbole le signe +?
+    a: L'addition
+  - q: Avec les anchois, quel autre poisson retrouve-t-on en miettes dans une salade niçoise traditionnelle?
+    a: Le thon
+  - q: En dehors de son domicile, la loi oblige tout français a avoir des papiers d'identité sur loi. Vrai ou faux?
+    a: Faux
+  - q: Au cours de quel siècle Christophe Colomb a-t-il découvert l'Amérique?
+    a: Le XVème
+  - q: Quel est le signe du Zodiaque d'une personne née le jour de la Toussaint?
+    a: Scorpion
+  - q: En croisant la mandarine avec l'orange, on a créé la nectarine ou la clémentine?
+    a: La clémentine
+  - q: Si un carré a un périmètre de 16 centimètres, combien mesure chacun de ses côtés?
+    a: 4 centimètres
+  - q: Sous quel nom connait-on mieux le rappeur Didier Morville?
+    a: Joey Starr
+  - q: Quelle grande avenue de New York est célèbre pour ses théâtres et les comédies musicales qui y sont jouées?
+    a: Broadway
+  - q: Dans un lycéen passe le Bac ES, que signifie la lettre S?
+    a: Social
+  - q: Quel peuple de l'Antiquité gravait des hiéroglyphes sur les tombeaux des pharaons?
+    a: Les Egyptiens
+  - q: Combien le kangourou a-t-il de pattes?
+    a: 4
+  - q: Lequel est une spécialité de la cuisine espagnole, le gaspacho ou le risotto?
+    a: Le gaspacho
+  - q: Quel mot nouveau désigne un autoportait fait avec son téléphone portable?
+    a: Un selfie
+  - q: Selon le titre d'un single, comment est la casquette pour les rappeurs du groupe Sexion d'Assault?
+    a: A l'envers
+  - q: Qu'est-ce qui peut être de souris, de la Sécu ou de mémoire?
+    a: Un trou
+  - q: Dans quel tournoi de tennis du Grand Schlem voit-on des jardiniers passer la tondeuse sur les cours?
+    a: Wimbledon
+  - q: Quelle grande île italienne dont le nom commence par S se situe à quelques kilomètres de la Corse?
+    a: La Sardaigne
+  - q: Dans quel jeu de la cour d'école va-t-on de la terre au ciel à cloche-pieds?
+    a: La marelle
+  - q: Quand on veut imiter Céline Dion, avec quel accent parle-t-on français?
+    a: Québecois
+  - q: Quel jour de la semaine le conseil des ministres a-t-il pour habitude de se réunir?
+    a: Mercredi
+  - q: En 2001, a-t-on envoyé pour la première fois dans l'Espace un touriste ou un singe?
+    a: Un touriste
+  - q: Sur Internet, quel nom de petit gâteau aux pépites de chocolat désigne les fichiers espions?
+    a: Un cookie
+  - q: Fête-t-on le prénom Valentine le jour de la Saint-Valentin?
+    a: Faux
+  - q: La lumière blanche du Soleil contient toutes les couleurs de l'arc-en-ciel, vrai ou faux?
+    a: Vrai
+  - q: En pâtisserie, de quel fruit rouge à noyau est garnie une "Forêt noire"?
+    a: De cerises
+  - q: De quel territoire français du Pacifique les îles Marquises font-elles parties?
+    a: La Polynésie française
+  - q: Un steeplechase est-il un fauteuil à bascule ou une course d'obstacles?
+    a: Une course d'obstacles
+  - q: Comment appelle-t-on les os des poissons?
+    a: Les arètes
+  - q: Dans notre hémisphère, au cours de quel mois profite-t-on du jour le plus long?
+    a: Juin
+  - q: Quelle partie du visage les Papous se perçaient-ils pour l'orner d'un bijou en os?
+    a: Le nez
+  - q: Au Cluedo, quel support à bougie peut être l'arme du crime?
+    a: Le chandelier
+  - q: Selon l'expression, lorsqu'on a des visions, de quelle couleur sont les éléphants?
+    a: Roses
+  - q: Sur quel pique en bois enfile-t-on de petits morceaux de viande à cuire au barbecue?
+    a: Une brochette
+  - q: Au Monopoly classique, combien faut-il de maisons sur un case pour acheter un hôtel?
+    a: 4
+  - q: Au Rami, quelle carte peut remplacer n'importe quelle autre carte?
+    a: Le joker
+  - q: Après combien de saisies de code érronées une carte bancaire est-elle avalée?
+    a: 3
+  - q: Quel nom anglo- américain désigne un chanteur de charme?
+    a: Un crooneur
+  - q: Au Palais-Royal, les colonnes de Buren ont-elles des rayures horizontales ou verticales?
+    a: Verticales
+  - q: Dans une côte, comment appelle-t-on la position d'un cyclique debout sur ses pédales?
+    a: En danseuse
+  - q: Elie Semoun est le cousin de Patrick Bruel, vrai ou faux?
+    a: Vrai
+  - q: Combien de secondes s'écoulent en 3 minutes?
+    a: 180
+  - q: Quel nom désigne à la fois un type de barbe et un bijou?
+    a: Un collier
+  - q: La barrière d'astéroides séparant Mars de Jupiter est-elle appelée ceinture ou bretelle?
+    a: Ceinture
+  - q: Au jeu du mille bornes, quelle est la plus petite distance inscrite sur une carte Etape?
+    a: 25 km
+  - q: Dans quel film musical John Travolta est-il Dany, le tombeur du lycée aux cheveux gominés?
+    a: Grease
+  - q: De quel continent le lac Victoria est-il la plus vaste étendue d'eau?
+    a: L'Afrique
+  - q: La gouache est-elle une peinture à huile ou à l'eau?
+    a: A l'eau
+  - q: Dans quelle ville Louis XIV a-t-il fait bâtir le prestigieux château qui a été sa résidence principale?
+    a: Versailles
+  - q: Qu'est-ce qu'une tortilla? Une galette de maïs ou une coiffe espagnole?
+    a: Une galette de maïs
+  - q: Dans le secteur bancaire, que signifie le sigle P.E.L.?
+    a: Plan d'Epargne Logement
+  - q: Quel massif commun à la Belgique, à la France et au Luxembourg culmine à 694 mètres d'altitude?
+    a: Les Ardennes
+  - q: En français, quel mot composé désigne la pratique du ski en dehors des pistes balisées?
+    a: Le hors-piste
+  - q: En juillet 2019, quelle ville a accueilli l'arrivé du Tour de France?
+    a: Paris
+  - q: Combien y a-t-il de T dans le mot "trottinette"?
+    a: 5
+  - q: En Italie sert-on les antipasti au début ou à la fin d'un repas?
+    a: Au début
+  - q: Au début d'une partie d'échecs, combien y a-t-il de tours posées sur l'échiquier?
+    a: 4
+  - q: Combien de cordes vocales l'Homme utilise-t-il pour parler?
+    a: 2
+  - q: Le basejump est-il un saut en parachute ou à l'élastique?
+    a: En parachute
+  - q: En France, dans quelle grande chaîne de montagne des ours vivent-ils en liberté?
+    a: Les Pyrénées
+  - q: Dans les sketchs du Service Après-Vente des Emissions, à quel complice Omar téléphone-t-il?
+    a: Fred
+  - q: En musique, quel signe placé au début d'une portée peut être de Sol ou de Fa?
+    a: Une clé
+  - q: Pour rebrousser chemin, fait-on un virage à 180 ou à 360 degrés?
+    a: 180
+  - q: Quel hymne s'appelait à l'origine "Chant de guerre pour l'armée du Rhin"?
+    a: La Marseillaise
+  - q: En joaillerie, un carat est égal à un gramme. Vrai ou faux?
+    a: Faux
+  - q: Pour communiquer par radio, par quel prénom les pilotes traduisent-ils la lettre C?
+    a: Charlie
+  - q: Quel degré de cuisson d'une entrecôte est situé entre saignant et bien cuit?
+    a: A point
+  - q: En Afrique, lequel est un tambour? Le djembé ou l'awalé?
+    a: Le djembé
+  - q: Quelle langue est surnommée la langue de Dante?
+    a: L'Italien
+  - q: Selon la tradition, quel petit rongeur apporte une pièce de monnaie en l'échange d'une dent de lait?
+    a: La petite souris
+  - q: Quel plat alsacien à base de chou fermenté est servi avec des saucisses?
+    a: La choucroute
+  - q: Quel animal d'Australie se dresse sur ses pattes arrières en position de boxeur?
+    a: Le kangourou
+  - q: Combien font 505 divisés par 5?
+    a: 101
+  - q: A Paris, le ministère situé place Beauvau est-il celui de l'Agriculture ou de l'Intérieur?
+    a: De l'Intérieur
+  - q: La Terre est située au centre du système solaire, vrai ou faux?
+    a: Faux
+  - q: Quel roi a précédé Louis XV sur le trône de France?
+    a: Louis XIV
+  - q: Sur Terre, l'eau douce représente-t-elle environ 3% ou 30% de l'eau disponible?
+    a: 3%
+  - q: Quel mois débute avec le jour de l'an?
+    a: Janvier
+  - q: Quelles petites batteries sont dites alcalines?
+    a: Les piles
+  - q: Quel mot commençant par L désigne le commerçant dont le métier consiste à vendre des livres au public?
+    a: Le libraire
+  - q: De quel aliment peut-on manger un quignon?
+    a: Le pain
+  - q: En 1896, quel métal précieux provoque une ruée vers le nord-est canadien?
+    a: L'or
+  - q: En mai 1930, quel célèbre aviateur effectua la première liaison postale entre la France et l'Amérique du Sud?
+    a: Georges Mermoz
+  - q: Au bord de quel fleuve les habitants de Budapest vivent-ils?
+    a: Le Danube
+  - q: Pour couper une tarte aux fraises en 8 parts égales, combien de coupes passeant par son centre doit-on faire au minimum?
+    a: 4
+  - q: Dans quel arbre proviennent les marrons comestibles que l'on trouve sur les marchés?
+    a: Le châtaignier
+  - q: En médecine, comment appelle-t-on le spécialiste des affections de la peau?
+    a: Le dermatologue
+  - q: Une personne perplèxe est-elle indécise ou déterminée?
+    a: Indécise
+  - q: La nuit dans une ville bien éclairée, il est autorisé de circuler en voiture en feux de position. Vrai ou faux?
+    a: Vrai
+  - q: En France, quel diplôme national clôt le second cycle des études universitaires?
+    a: La maîtrise/le master
+3:
+  - q: Selon l'usage, sur quelle articulation ne doit-on pas s'appuyer à table?
+    a: Le coude
+  - q: Quel nouvel ogre de l'économie mondiale a pour monnaie le Yuan?
+    a: La Chine
+  - q: Notre-Dame-de-Paris est-elle de style gothique ou roman?
+    a: Gothique
+  - q: Le pic à glace est l'une des armes du Cluedo, vrai ou faux?
+    a: Faux
+  - q: Dans quel dessin animé Esteban et Zia volent-ils à bord du Grand condor?
+    a: Les mysterieuses cités d'or
+  - q: Aux J.O., les chevaux font-ils des figures dans l'épreuve de la voltige ou du dressage?
+    a: Dressage
+  - q: Quel héros de cinéma apprend que Sirius, le prisonnier d'Askaban, est son parrain?
+    a: Harry Potter
+  - q: Quel dessert se compose de boules de glaces, de crème chantilly et d'une banane fendue?
+    a: Banana split
+  - q: Par rapport à quel méridien l'heure G.M.T. est-elle calculée?
+    a: Greenwich
+  - q: Pendant la grossesse, qui du Papa ou de la Maman fait une couvade?
+    a: Le papa
+  - q: Une partie de la forêt amazonienne est située en France, vrai ou faux?
+    a: Vrai, en Guyane française
+  - q: Sur quelle canne un blessé s'appuie-t-il pour marcher?
+    a: Une béquille
+  - q: En 1791, Louis XVI a été arrêté à Rennes. Vrai ou faux?
+    a: Faux, à Varennes
+  - q: Combien y a-t-il d'atomes de carbone dans la formule chimique CO2?
+    a:  1
+  - q: Lequel de ces deux engins se pilote en position couchée, le parapente ou le deltaplane?
+    a: Le deltaplane
+  - q: Dans la Code de la route, que signale le panneau carré bleu sur lequel figure un grand H?
+    a: Hopital
+  - q: Albion est-il le nom antique de la Grande-Bretagne ou de l'Italie?
+    a: La Grande-Bretagne
+  - q: On peut jouer de la batterie avec des balais, vrai ou faux?
+    a: Vrai
+  - q: Quel nom composé désigne l'imprimé annonçant un mariage ou une naissance?
+    a: Faire-part
+  - q: Dans le corps humain, l'aine est-elle située en haut du bras ou de la cuisse?
+    a: Cuisse
+  - q: Que signifie le sigle S.A.S. quand il désigne un prince?
+    a: Son Altesse Sérénissime
+  - q: Quels feux clignotants d'une automobile sont couramment appelés "Warning"?
+    a: Les feux de detresse
+  - q: La photo d'identité qui apparait désormais sur les cartes Vitale est-elle en couleur ou en noir et blanc?
+    a: Couleur
+  - q: Dans un célèbre Disney, quel couple de souris s'envole dans une boite de sardine attachée sur le dos d'un albatross?
+    a: Bernard et Bianca
+  - q: Combien de fois doit-on plier une feuille pour qu'elle soit pliée en 2?
+    a: 1
+  - q: Quel nom commençant par un F désigne le disque en plastique qu'on se lance à la plage pour s'amuser?
+    a: Le frisbee
+  - q: Louis XIV est né au Château de Versailles, vrai ou faux?
+    a: Faux
+  - q: D'après le fameux proverbe, "Qui se rassemble ..."?
+    a: S'assemble
+  - q: Quel anagramme du mot "bilan" est le nom d'un pays du Moyen-Orient?
+    a: Liban
+  - q: Dans les années 80, quel nom de fleur bleue donnait-on aux contractuelles de la police parisienne?
+    a: Les pervenches
+  - q: En géométrie, quand deux droites sont perpendiculaires, forment-elles un angle aigu ou droit?
+    a: Droit
+  - q: Quel est le nom français de la série "Game of Thrones"?
+    a: Le trône de fer
+  - q: Quel petit mot latin signifiant "deux fois" peut-on voir après un numéro de rue?
+    a: Bis
+  - q: Avec l'Afrique, sur quel continent peut-on croiser des lions à l'état sauvage?
+    a: L'Asie
+  - q: Sur le tableau de Leonard de Vinci, la Joconde est-elle debout ou assise?
+    a: Assise
+  - q: Quelle voiture les français surnommaient-ils affectueusement la "deu-deuche"?
+    a: La 2-chevaux
+  - q: Lors d'une éclipse de Soleil, quel astre cache le Soleil?
+    a: La Lune
+  - q: Quel outil redouté chez le dentiste porte le même nom qu'un fruit rouge?
+    a: La fraise
+  - q: Chez l'Homme, qu'est-ce qui bat environ 100 000 fois par jour? Le coeur ou les paupières?
+    a: Le coeur
+  - q: Chaque année en Octobre, quelle boisson fête-t-on à Munich?
+    a: La bière
+  - q: Complétez ces vers de La Fontaine "Vous chantiez, j'en suis fort aise. Et bien ..."
+    a: Dansez maintenant
+  - q: Qu'est-ce qui peut être à main, de noeud ou de couchage?
+    a: Un sac
+  - q: Quel art martial est au programme des J.O.? Le taekwondo ou le karaté?
+    a: Le taekwondo
+  - q: Quand elles désignent une contravention, que signifient les initiales P.V.?
+    a: Procès verbal
+  - q: Quel ami de Winnie l'Ourson est particulièrement dépressif, surtout quand il perd sa queue?
+    a: Bourriquet
+  - q: Combien de fois y a-t-il la lettre T dans le mot "tartiflette"?
+    a: 4
+  - q: Parmi les couleurs d'un jeu de cartes classique, laquelle est représentée par des losanges rouges?
+    a: Carreau
+  - q: Dans quelle île des Antilles est-on lorsqu'on se promène à Pointe-à-Pitre?
+    a: La Guadeloupe
+  - q: Si ses parents sont d'accord, à partir de quelle age un ado peut-il avoir un carnet de chèques?
+    a: 16 ans
+  - q: Si vous rencontrez un marin, pour vous porter chance, touchez-vous son pompon ou ses galons?
+    a: Son pompon
+  - q: Quel est l'autre nom du beurre d'arachide, la pate à tartiner dont les américains raffole?
+    a: Le beurre de cacahuète
+  - q: Dans les jeux vidéos, quel est le lien de parenté entre Mario et Luigi?
+    a: Frères
+  - q: La bosse du dromadaire contient-elle essentiellement de l'eau ou de la graisse?
+    a: De la graisse
+  - q: En 3 lettres, quel petit chapeau de toile se porte surtout l'été?
+    a: Un bob
+  - q: Les dents de lait aussi peuvent avoir des caries, vrai ou faux?
+    a: Vrai
+  - q: Quel nom donne-t-on à l'épreuve théorique générale du permis de conduire?
+    a: Le code
+  - q: Dans les dessins animés jeuneusse, quelle exploratrice répète "Chipeur, arrête de chiper"?
+    a: Dora l'exploratrice (de vagin)
+  - q: A la boulangerie, peut-on trouver couramment un bâtard ou un bouffon?
+    a: Un bâtard
+  - q: Paris a la Seine, Rome a le Tibre et Londres a ?
+    a: La Tamise
+  - q: Quels animaux sont la blonde d'Aquitaine et la bretonne pis noirs?
+    a: Des vaches
+  - q: La gymnastique douce préférée des stars est le Ponce ou le Pilate?
+    a: Le pilate
+  - q: Quand c'est le printemps dans l'hémisphère Nord, quelle est la saison dans l'hémisphère Sud?
+    a: L'automne
+  - q: En cas d'orage, est-on plus en sécurité dans une voiture ou sous un arbre?
+    a: Dans une voiture
+  - q: Selon l'expression, que font les souris quand le chat n'est pas là?
+    a: Elles dansent
+  - q: Dans quel pays peut-on admirer le Sphinx de Gizeh?
+    a: En Egypte
+  - q: En B.D., quel superhéros porte une cape rouge et une combinaison bleue marqué d'un S sur la poitrine?
+    a: Superman
+  - q: Par quel sigle désigne-t-on le Pacte civil de solidarité?
+    a: Le Pacs
+  - q: Qu'allume-t-on chaque soir sous l'Arc de triomphe en souvenir du Soldat inconnu?
+    a: Une flamme
+  - q: Le plafond de l'Opéra Garnier a-t-il été peint par Marc Chagall ou Pablo Picasso?
+    a: Marc Chagall
+  - q: Chez le chien, quelle partie de la tête est généralement tatouée?
+    a: L'oreille
+  - q: En Italie, quel nom donne-t-on à un assortiment de hors d'oeuvre froids?
+    a: Antipasti
+  - q: La ville d'Aubusson est-elle réputée pour ses tapisseries ou ses pâtisseries?
+    a: Tapisseries
+  - q: La Croix Rouge a reçu plusieurs fois le prix Nobel de la Paix, vrai ou faux?
+    a: Vrai
+  - q: Dans quel sport américain un batteur peut-il frapper des "home run"?
+    a: Le baseball
+  - q: Le drapeau de la gay pride est de couleur rose, vrai ou faux?
+    a: Faux, c'est un arc-en-ciel
+  - q: Dans la série X-Files, pour quel organisme Mulder et Scully travaillent-ils?
+    a: Le F.B.I.
+  - q: Lequel a été inventé en premier, le patin à roulettes ou le frisbee?
+    a: Le patin à roulettes
+  - q: Dans un conte, quel légume magique permet au petit Jack de monter dans le ciel?
+    a: Des haricots
+  - q: Quel spécialiste des civilisations anciennes mène des fouilles pour étudier les vestiges du passé?
+    a: Un archéologue
+  - q: Quelle botte aux bouts pointus et aux talons en biais sont un symbole du look cow-boy?
+    a: Les Santiag
+  - q: Au tennis, quand la balle de service touche le filet, est-elle dite "let" ou "out"?
+    a: Let
+  - q: Quel acteur belge a dit "Le spirit, c'est la matière qui donne la volonté"?
+    a: JCVD
+  - q: La monnaie officielle de la Suisse est l'euro, vrai ou faux?
+    a: Faux, le franc suisse
+  - q: Quel nom désigne à la fois la solution d'une énigme et un outil de mécanicien?
+    a: La clé
+  - q: En cas d'hypoglycémie, faut-il manger du sucre ou boire de l'eau?
+    a: Manger du sucre
+  - q: Quel autre nom donne-t-on aux verres de contact?
+    a: Des lentilles
+  - q: Comment appelle-t-on la plus petite boule du jeu de pétanque?
+    a: Le cochonnet
+  - q: Combien de côtés égaux un lozange possède-t-il?
+    a: 4
+  - q: Quel mot désigne un vêtement féminin et la tenue que portent les avocats pour plaider?
+    a: La robe
+  - q: Quelle est la langue officielle des compétitions internationales d'escrime?
+    a: Le français
+  - q: D'après l'anecdote, quel fruit aurait inspiré à Isaac Newton la découverte de l'attraction universelle?
+    a: Une pomme
+  - q: Quel nom emprunté à l'anglais est utilisé pour parler d'une lotion après-rasage?
+    a: Un aftershave
+  - q: Si vous skiiez dans l'Etat du Tyrol, dans quel pays séjournez-vous?
+    a: L'Autriche
+  - q: Quel est le seul pays à avoir remporté 5 fois la coupe du monde de football?
+    a: Le Brésil
+  - q: Le prénom de Che Guevara est-il Ernesto ou Emiliano?
+    a: Ernesto
+  - q: Quel royaume voisin de la France a pour devise "L'union fait la force"?
+    a: La Belgique
+  - q: Quand on reconnaît toutes les notes de musiques, qu'est-ce qui est absolue?
+    a: L'oreille
+  - q: Dans quel dessin animé Kenny meurt-il atrocement dans chaque épisode?
+    a: South Park
+  - q: Au golf, lequel a un diamètre de 10,8 centimètres? Le trou ou la balle?
+    a: Le trou
+  - q: Un piéton qui traverse hors des passages cloutés peut être verbalisé. Vrai ou faux?
+    a: Vrai
+  - q: Quel nom d'instrument à percussion donne-t-on à l'ensemble des ustensiles de cuisine?
+    a: La batterie
+  - q: Quel fleuve coule sous le pont d'Avignon?
+    a: Le Rhône
+  - q: En informatique, pour couper du texte appuie-t-on sur les touches Ctrl+C ou Ctrl+X?
+    a: Ctrl+X
+  - q: La colline qui surplombe la ville de Rio est-elle appelée le Pain de sucre ou le Pain d'épices?
+    a: Le Pain de sucre
+  - q: En 1888, quel celèbre tueur en série a terrorisé Londres?
+    a: Jack l'Eventreur
+  - q: Au football, quel poste occupait Fabien Barthez?
+    a: Goal/Gardien de but
+  - q: Une vague qui déferle sur une plage est-elle appelée "rouleau" ou "bigoudis"?
+    a: Rouleau
+  - q: Dans le Sahara, la température est toujours au-dessus de 0°C. Vrai ou faux?
+    a: Faux
+  - q: En français, comment traduit-on la phrase italienne "Ti amo"?
+    a: Je t'aime
+  - q: L'hypothalamus est-il situé dans le cerveau ou dans le genou?
+    a: Dans le cerveau
+  - q: Si on reçoit une pêche dans la poire, tombe-t-on dans les prunes ou dans les pommes?
+    a: Dans les pommes
+  - q: Un repas frugal est-il copieux ou léger?
+    a: Léger
+  - q: Selon le nom d'une célèbre course cycliste, quelle ville est reliée à Roubaix?
+    a: Paris
+  - q: En B.D., quels frères veulent voler l'argent de Picsou?
+    a: Les Rapetou
+  - q: Les ponts à haubans sont des ponts fortifiés construits à l'époque de Louis XIV, vrai ou faux?
+    a: Faux
+  - q: Familièrement, un navet désigne-t-il un mauvais film ou un mauvais restaurant?
+    a: Un mauvais film
+  - q: Quel état a offert en 1886 la Statue de la Liberté?
+    a: La France
+  - q: On visite un planetarium pour sa végétation éxotique, vrai ou faux?
+    a: Faux
+  - q: Quel mot commençant par la lettre I désigne une petite aventure amoureuse?
+    a: Une idylle
+  - q: Au XVIème siècle, quel astronome polonais affirme que la Terre tourne autour du Soleil?
+    a: Copernic
+  - q: Dans le celeri-rave, ce sont les branches que l'on consomme. Vrai ou faux?
+    a: Faux, la racine
+  - q: Quelle ville est la capitale de la Belgique?
+    a: Bruxelles
+  - q: Le fourmilion est un lion de très petite taille, vrai ou faux?
+    a: Faux
+4:
+  - q: Quand il s'agit d'une contravention, combien y a-t-il de A dans le mot "amende"?
+    a: 1
+  - q: A l'école, quel sigle de 3 lettres désigne l'enseignement sportif?
+    a: E.P.S.
+  - q: A l'Opéra, quelle voix féminine est la plus aigüe?
+    a: Soprano
+  - q: Sur un voilier, le gouvernail se trouve-t-il à l'avant où à l'arrière?
+    a: A l'arrière
+  - q: Qu'est-ce qui peut être des miracles, de cassation ou de récréation?
+    a: La cour
+  - q: Un triangle peut avoir deux angles droits, vrai ou faux?
+    a: Faux
+  - q: Quel guerrier japonais porte un nom rimant avec "banzai"?
+    a: Samourai
+  - q: Au centre de la place de la Concorde admire-t-on un ou une obelisque?
+    a: Un
+  - q: A la fête foraine, quel nuage de sucre entouré autour d'un baton colle aux mains des enfants?
+    a: La barbe à papa
+  - q: Quel mois de l'année tient son nom de Jules César?
+    a: Juillet
+  - q: Combien de prémolaires un adulte possède-t-il au maximum?
+    a: 8
+  - q: Quel trophée sportif porte le nom d'un verre à champagne?
+    a: Une coupe
+  - q: A quel prénom masculin ressemble le cri caractéristique du pan quand il fait la roue?
+    a: Léon
+  - q: La citrouille appartient-elle à la famille des courges ou des choux?
+    a: Des courges
+  - q: Si un thermomètre indique -10°F, que signifie la lettre F?
+    a: Fahrenheit
+  - q: Quelle profession Clark Kent, alias Superman, exerce-t-il dans le civil?
+    a: Journaliste
+  - q: D'après la superstition, quel chiffre écrit 3 fois serait celui du diable?
+    a: 6
+  - q: Quelle jupe plissée fait parti du costume national écossais?
+    a: Le kilt
+  - q: Dans un moteur de voiture, lequel est un tuyau? La durite ou le carter?
+    a: La durite
+  - q: Quelle couleur parasite peuvent prendre les yeux d'une personne photographiée avec un flash?
+    a: Rouge
+  - q: Quel nom rimant avec "stuc" désigne le ruban avec lequel on ficelle les cadeaux?
+    a: Bolduc
+  - q: Selon le titre de son roman, à combien de lieues sous les mers Jules Verne nous entraîne-t-il?
+    a: 20 000
+  - q: Dans le règne animal, les Maya sont-ils des abeilles ou des crabes?
+    a: Des crabes
+  - q: Quel train, monté sur des rails, permet de monter la butte Montmartre jusqu'au Sacré Coeur?
+    a: Le funiculaire
+  - q: Quel boxeur est incarné par Will Smith dans le film intitulé "Ali"?
+    a: Mohammed Ali
+  - q: A la puberté, quel phénomène se manifeste par de petits boutons sur la peau?
+    a: L'acné
+  - q: En deux mots, quelle expression anglaise utilise-t-on souvent pour désigner la fin heureuse d'une histoire?
+    a: Happy ending
+  - q: Dans l'hémisphère Nord, durant quel mois peut-on voir le Soleil se coucher le plus tard?
+    a: Juin
+  - q: A quelle heure les aiguilles d'une horloge sont-elles alignées verticalement sans se superposer?
+    a: 6h00 ou 18h00
+  - q: Quel sigle de 3 lettres désigne le réseau français de trains régionaux?
+    a: T.E.R.
+  - q: Autrefois, en parlant de son amoureuse, un homme disait-il "ma mie" ou "ma croûte"?
+    a: Ma mie
+  - q: De quel roman de Stendhal, l'ambitieux Julien Sorel est-il le héros?
+    a: Le rouge et le noir
+  - q: Après avoir obtenu son code, de combien de temps dispose-t-on pour passer son permis?
+    a: 5 ans
+  - q: Au restaurant, quel animal mange-t-on quand on commande une douzaine de petits gris?
+    a: Des escargots
+  - q: Chez les ados, avoir le seum c'est être énervé ou avoir de la chance?
+    a: Etre énervé
+  - q: Au quinté, il faut trouver les 4 premiers chevaux d'une course. Combien pour un tiercé?
+    a: 3
+  - q: Si un réveil indique 7 heures suivies des initiales A.M., est-il 7 heures du matin ou du soir?
+    a: Du matin
+  - q: Avec quel fruit broyé fabrique-t-on le savon noir utilisé pour se frotter le corps au hammam?
+    a: L'olive
+  - q: En français, quelle est la seule voyelle sur laquelle on peut mettre tous les accents?
+    a: e (é, è, ê, ë)
+  - q: Quel est le nom des habitants dans la région Ile-de-France?
+    a: Les franciliens
+  - q: D'après le titre d'une émission animée par Arthur, lors de quel jour de la semaine tout est permis?
+    a: Vendredi
+  - q: Selon l'expression, que met-on dans les épinards lorsqu'on arrondit ses fins de mois?
+    a: Du beurre
+  - q: Quand on joue à la belote, la partie qui départage les deux équipes est-elle la revanche ou la belle?
+    a: La belle
+  - q: Quel mot est à la fois le nom d'un gros animal marin et celui d'un alphabet fait de traits et de points?
+    a: Le morse
+  - q: Quel bonnet les mauvais écoliers portent-ils sur leur tête?
+    a: Le bonnet d'âne
+  - q: Dans quelle ville peut-on flâner sur la Place Rouge après un spectacle au Bolshoï?
+    a: Moscou
+  - q: Un kilo de plume est-il plus lourd ou plus léger qu'un kilo de plomb?
+    a: C'est exactement le même poids
+  - q: Dans quel film d'animation, le rat Rémy se cache-t-il sous la toque du cuisinier Linguini?
+    a: Ratatouille
+  - q: En 4 lettres, quel est l'infinitif du verbe dans la phrase "Oyez, oyez braves gens"?
+    a: Ouïr
+  - q: Qui était surnommé "Madiba" ou bien "Le père de la nation arc-en-ciel"?
+    a: Nelson Mandela
+  - q: A quel doigt les mariés portent-ils traditionnellement leur alliance?
+    a: L'annulaire
+  - q: Continuez cette suite logique "A1, B2, C3, ..."
+    a: D4
+  - q: Dans quel océan peut-on se baigner sur les plages de Rio de Janeiro?
+    a: L'Océan Atlantique
+  - q: Dans le crime de l'Orient Express, Agatha Christie a-t-elle confié l'enquête à Hercule Poirot ou Miss Marple?
+    a: Hercule Poirot
+  - q: Quel nom rimant avec "force" désigne un écart de conduite ou une foulure à la cheville?
+    a: Entorse
+  - q: A la télé, dans quelle famille le tonton Michel presente-t-il des émissions de variété et Marie le J.T.?
+    a: Les Drucker
+  - q: Dans un jeu d'échecs classiques, quelle pièce a une tête d'animal?
+    a: Le cavalier
+  - q: Les étoiles brillent le jour comme la nuit, vrai ou faux?
+    a: Vrai
+  - q: De quel beignet sucré en forme d'anneau Homer Simpson raffole-t-il?
+    a: Les donuts
+  - q: Quelle course cycliste est surnommée "l'Enfer du Nord"?
+    a: Le Paris-Roubaix
+  - q: Sur quel continent Livingstone a-t-il exploré le fleuve Zambèse?
+    a: L'Afrique
+  - q: Lequel des deux désigne une ensemble de nuances d'une même couleur, camaïeu ou chiné?
+    a: Camaïeu
+  - q: De quel mollusque tirait-on l'encre appelée Sépia?
+    a: La seiche
+  - q: De quelle grotte de Dordogne fermée depuis 1963 peut-on visiter la fidèle réplique?
+    a: Lascaux
+  - q: Quel produit cosmétique porte le même nom qu'un déguisement de carnaval?
+    a: Le masque
+  - q: Une voiture doit obligatoirement s'arrêter au panneau "Cédez le passage", vrai ou faux?
+    a: Faux
+  - q: Lors de la photosynthèse, quel pigment vert capte l'énergie de la lumière?
+    a: La chlorophylle
+  - q: Quel appareil électroménager situé au-dessus d'une gazinière aspire les vapeurs et les odeurs?
+    a: La hotte
+  - q: Quelle lettre est le symbole de l'hydrogène?
+    a: H
+  - q: Dans quel film Marty McFly est-il propulsé dans les années 1950 au volant d'une voiture?
+    a: Retour vers le futur
+  - q: Lequel est un chef indien? "Crazy Horse" ou "Little Big Horn"?
+    a: Crazy Horse
+  - q: A Belfort, de quel félin peut-on voir une statue monumentale?
+    a: Un lion
+  - q: Dans les années 1950, quelle chaussette arrivant aux chevilles les filles portaient-elles avec leur jupe?
+    a: Des sockettes
+  - q: Au basket, combien de points vaut un panier marqué depuis le milieu du terrain?
+    a: 3
+  - q: Dans quel pays d'Europe est situé la ville de Barcelonnette?
+    a: France
+  - q: Quelle poudre à lever met-on dans les gâteaux pour les faire gonfler?
+    a: La levure chimique
+  - q: Manet, l'auteur de la toile "Olympia", se prénommait-il Edouard ou Edgar?
+    a: Edouard
+  - q: De quelle origine est le mot "geisha"?
+    a: Japonais
+  - q: Combien de jours compte une année bisextile?
+    a: 366
+  - q: Au coeur de quelle ville l'île de Manhattan se trouve-t-elle?
+    a: New York
+  - q: En agriculture, comment appelle-t-on une terre temporairement privée de cultures pour laisser se reposer le sol?
+    a: Une jachère
+  - q: En 1960, quelle compétition sportive réservée aux handicapés est créée sur le modèle des Jeux Olympiques?
+    a: Les Jeux Paralympiques
+  - q: Dans quelle ville de Corse Napoléon Bonaparte est-il né en 1769?
+    a: Ajaccio
+  - q: A quel siècle étions-nous en l'an 253 après J.C.?
+    a: Le IIIème
+  - q: Selon le dicton "Si l'on chasse le naturel", comment revient-il?
+    a: Au galop
+  - q: En 1928, à quel compositeur doit-on le célèbre Boléro?
+    a: Maurice Ravel
+  - q: En 24 heures, combien de fois la petite aiguille d'une montre fait-elle le tour du cadran?
+    a: 2
+  - q: Quelle île de Charente-Maritime porte le nom d'une note de musique?
+    a: L'île de Ré
+  - q: Dans quel sport Boris Diaw saisit-il la balle au bond?
+    a: Le basketball
+  - q: De ces deux écrivains, laquelle est une femme? Lamartine ou Georges Sand?
+    a: Georges Sand
+  - q: Dans quelle ville de la Côte d'Azur se déroule le MIDEM, le Marché international de la Musique?
+    a: Cannes
+  - q: Le métier de jockey est réservé aux hommes, vrai ou faux?
+    a: Faux
+  - q: En athlétisme, lequel est une épreuve de lancer? L'enclume, le marteau ou la faucille?
+    a: Le marteau
+  - q: De quel pays sont originaires les musiciens appelés les mariachis?
+    a: Le Mexique
+  - q: En médecine, comment appelle-t-on une personne qui confond le vert et le rouge?
+    a: Un daltonien
+  - q: La superficie de la France est-elle supérieure ou inférieure à 500 000km² ?
+    a: Supérieure
+  - q: Dans un jeu de cartes traditionnel, quelle est la couleur des trèfles?
+    a: Noire
+  - q: Combien de jours comportera le mois de février 2020?
+    a: 29
+  - q: Au cinéma, que signifient les mots "The End"?
+    a: La fin
+  - q: Le plus long nerf du corps humain est le nerf sciatique, vrai ou faux?
+    a: Vrai
+  - q: Combien y a-t-il de centilitres dans un litre?
+    a: 100
+  - q: Quel ballon à air chaud les frères "De Montgolfier" ont-ils inventé?
+    a: La Montgolfière
+  - q: Sur une pizza, le pepperoni est-il du fromage ou du saucisson?
+    a: Du saucisson
+  - q: On désigne par trimaran les voiliers qui ont trois mats, vrai ou faux?
+    a: Faux, trois coques
+  - q: En Russie, un samovar sert-il à faire chauffer de l'eau ou à conserver le caviar?
+    a: A faire chauffer de l'eau
+  - q: En géométrie, combien un trapèze a-t-il de côtés?
+    a: 4
+  - q: Quel actuel pays d'Europe fut unifié au XIXème siècle grâce à Garibaldi?
+    a: L'Italie
+  - q: De quel arbuste à fruits rouges utilise-t-on les feuilles piquantes comme décorations de Noël?
+    a: Le houx
+  - q: C'est au fabricant d'instruments de musique Adolphe Sax que l'on doit le Saxophone, vrai ou faux?
+    a: Vrai
+  - q: Chez l'Homme, quel nom donne-t-on au cinquième doigt de la main couramment appelé "petit doigt"?
+    a: L'auriculaire
+  - q: Aux Etats-Unis, les francophones de Louisiane se nomment les cosaques, vrai ou faux?
+    a: Faux, les cajuns
+5:
+  - q: Quelle jeune exploratrice de dessins animés est accompagnée de son singe Babouche?
+    a: Dora l'exploratrice / Ta mère la pute/tchoin
+  - q: D'après son nom, la LPO est-elle la ligue pour la protection des ours ou des oiseaux?
+    a: Des oiseaux
+  - q: En 1987, quel groupe chantait "Viens boire un p'tit coup à la maison"?
+    a: Licence IV
+  - q: En France, un enfant de 6 ans doit obligatoirement être inscrit à l'école. Vrai ou faux?
+    a: Faux, c'est l'éducation qui est obligatoire
+  - q: En 2006, quelle organisation de l'O.N.U. consacrée à l'enfance a fêté ses 60 ans d'existance?
+    a: U.N.I.C.E.F.
+  - q: Dans Bonne Nuit les Petits, comment s'appelle la petite fille qui accompagne Nicolas?
+    a: Pimprenelle / La sorcière
+  - q: Selon la croyance, de quel batricien les sorcières utilisent-elles la bave?
+    a: Les crapauds
+  - q: Les arbres aux feuilles persistantes ne perdent jamais leurs feuilles, vrai ou faux?
+    a: Faux
+  - q: La rapière est-elle une grande râpe à fromage ou une longue épée?
+    a: Une longue epée
+  - q: Dans une voiture, à quel miroir accroche-t-on le désodorisant en forme de sapin?
+    a: Le rétroviseur
+  - q: Sur quel fleuve africain le barrage d'Assouan a-t-il été construit?
+    a: Le Nil
+  - q: La crinière de Jolly Jumper est-elle brune ou blonde?
+    a: Blonde
+  - q: Quelle unité informatique notée Go équivaut à un milliard d'octets?
+    a: Le gigaoctet
+  - q: Quel nom d'animal est l'anagramme du mot "niche"?
+    a: Chien
+  - q: En mathématiques, les abscisses figurent-elles sur l'axe horizontal ou vertical?
+    a: Horizontal
+  - q: En 1979, qui est le chanteur du tube disco "Born to be alive"?
+    a: Patrick Hernandez
+  - q: L'olive verte est une olive noire qui n'a pas encore mûri, vrai ou faux?
+    a: Vrai
+  - q: Quel animal du désert a deux bosses de graisse sur le dos?
+    a: Le chameau
+  - q: Quel meuble voit-on sur le panneau routier signalant un hôtel?
+    a: Un lit
+  - q: Quel nom rimant avec "fumeuse" donne-t-on à une cigarette électronique?
+    a: Une vapoteuse
+  - q: Si je veux faire une cure thermale à Cap Breton, dois-je aller en Aquitaine ou en Bretagne?
+    a: Aquitaine
+  - q: Le label A.O.C. qui protège les produits du terroir français signifie "Appelation d'origine ..."
+    a: Contrôlée
+  - q: Dans une chanson de Téléphone, qui pour ses 20 ans est la plus jolie des enfants?
+    a: Cendrillon
+  - q: Quelle ville d'Italie est au coeur des amours tragiques de Roméo et Juliette?
+    a: Vérone
+  - q: Pour soigner une tendinite du tendon d'achille, doit-on immobiliser la cheville ou le genou?
+    a: La cheville
+  - q: Parmi les amis de Mickey, lequel s'appelle Goofy en anglais?
+    a: Dingo
+  - q: Avec combien de C écrit le mot "accordéon"?
+    a: 2
+  - q: Sur une très célèbre photo, voit-on Albert Einstein en train de loucher ou de tirer la langue?
+    a: Tirer la langue
+  - q: Depuis 2000 en France, quel métal lourd est interdit dans la composition des carburants?
+    a: Le plomb
+  - q: Avec quel petit instrument à deux branches servant à tracer des cercles les écoliers se piquent-ils parfois les doigts?
+    a: Un compas
+  - q: On remplit nos poumons d'air lorsqu'on inspire ou qu'on expire?
+    a: Inspire
+  - q: Sur un dé à jouer classique, quelle face est toujours opposée au 2?
+    a: Le 5
+  - q: Dans le film Star Trek de 2009, quel ami du Capitaine Kirk assiste impuissant à la destruction de sa planète, Vulcain?
+    a: Capitaine Spock
+  - q: Quel accessoire pour ordinateur se dit "mouse" en anglais?
+    a: La souris
+  - q: La célèbre île de Capri est située au large de Naples ou de Venise?
+    a: Naples
+  - q: Quand un policier en planque utilise l'abréviation R.A.S., cela signifie "Rien à ..."
+    a: Signaler
+  - q: Quel nom rimant avec "amour" désigne les poètes composant des ballades au Moyen- Age?
+    a: Troubadour
+  - q: Quel est le nom de l'insecte dont les larves laissent des gros trous dans les vêtements en se nourrissant?
+    a: Les mites
+  - q: A quelle famille de volatiles aquatiques appartient le colvert?
+    a: Le canard
+  - q: Les deux anses d'un bol sont-elles aussi appelées coudes, oreilles ou joues?
+    a: Oreilles
+  - q: Dans un cours d'histoire, quel exercice consiste à ordonner les évènements dans le temps?
+    a: La chronologie
+  - q: Quel insecte aux pattes avant repliées est qualifié de "religieuse"?
+    a: La mante
+  - q: Comment appelle-t-on l'ensemble des touches alphanumériques d'un ordinateur?
+    a: Le clavier
+  - q: Un vol- au-vent est un grand oiseau rapace, vrai ou faux?
+    a: Faux, c'est un feuilleté
+  - q: Claude Monet s'est-il illustré dans le domaine de l'art ou de la finance?
+    a: L'art
+  - q: Dans quelle pièce de Molière Arpagon se fait-il soustraire sa cassette?
+    a: L'avare
+  - q: La Tunisie se trouve au sud du Sahara, vrai ou faux?
+    a: Faux
+  - q: Dans quelle série télé John le Rouge peint-il des smileys avec le sang de ses victimes?
+    a: Le mentaliste
+  - q: Le bikini est un maillot une-pièce, vrai ou faux?
+    a: Faux
+  - q: Quel ustensile de cuisine est le chinois?
+    a: Une passoire
+  - q: Un zombie qui ronge un cubitus vient-il de manger une jambe ou un bras?
+    a: Un bras
+  - q: Quel type de devinette commence par "Mon premier" et finit par "Mon tout"?
+    a: Une charade
+  - q: Dans quel loisir créatif fait-on du point de blé et du point mousse à l'aide d'aiguilles?
+    a: Le tricot
+  - q: Quel est le prénom de l'oncle Picsou?
+    a: Balthazar
+  - q: Le pole dance se pratique avec une barre verticale ou horizontale?
+    a: Verticale
+  - q: Quand on additionne deux nombres impairs, on trouve toujours un nombre pair. Vrai ou faux?
+    a: Vrai
+  - q: Un îlotier est-il gardien de phare ou de la paix?
+    a: De la paix
+  - q: En Inde, quelle partie du visage est ornée d'un rond rouge appelé "bindi"?
+    a: Le front
+  - q: Quand le requin perd une dent, elle est remplacée par une autre. Vrai ou faix?
+    a: Vrai
+  - q: De quelle organisation internationale Kofi Annan fut-il le Secrétaire général?
+    a: L'O.N.U.
+  - q: Selon l'expression, lorsqu'on est habillé avec élégance, à combien d'épingles est-on tiré?
+    a: A 4 épingles
+  - q: Laquelle de ces deux planètes est la plus proche de la Terre, Vénus ou Jupiter?
+    a: Vénus
+  - q: Quelle unité de mesure évoquant un animal utilise-t-on pour parler de la puissance d'un moteur?
+    a: Le cheval
+  - q: Que représentent les étoiles blanches du drapeau des Etats-Unis?
+    a: Les Etats
+  - q: Le feng-shui est-il un art de vivre ou un art martial?
+    a: Un art de vivre
+  - q: Quel ancien champion du monde de boxe s'est fait tatouer un symbole maori autour de l'oeil?
+    a: Mike Tyson
+  - q: Le déshabillé est un vêtement d'intérieur, vrai ou faux?
+    a: Vrai
+  - q: En 1919, quelle oeuvre de Leonard de Vinci Marcel Duchamp a-t-il affublé de moustaches?
+    a: La Joconde
+  - q: Dans quel état de flottement se trouve un astronaute échappant à l'attraction terrestre?
+    a: L'apesanteur
+  - q: Les bigarreaux sont-ils des fruits du jardin ou des fruits de mer?
+    a: Fruit du jardin
+  - q: Qu'est-ce qui peut être de manège, de passe-passe ou de rein?
+    a: Un tour
+  - q: Au cinéma, dans quelle trilogie l'agent Smith se duplique-t-il à l'infini?
+    a: Matrix
+  - q: Si les années 1960 sont les sixties, comment appelle-t-on les années 70?
+    a: Les seventies
+  - q: Lequel de ces hommes symbolisait le rêve américain? Rothschild ou Rockefeller?
+    a: Rockefeller
+  - q: Quel gibier de garenne peut-on déguster en civet?
+    a: Le lapin
+  - q: Dans le ciel, on peut voir scintiller une étoile qui n'existe plus. Vrai ou faux?
+    a: Vrai
+  - q: Dans un supermarché, la douchette est-elle un détecteur de fumée ou un lecteur de code barre?
+    a: Lecteur de code barre
+  - q: A la fin du XIXème siècle, quel pantalon de toile bleue très resistant fût créé pour les chercheurs d'or?
+    a: Le blue jeans
+  - q: Laquelle de ces pierres n'est pas une pierre précieuse? Le saphir, la topaze ou l'émeraude?
+    a: La topaze
+  - q: En France, quel nombre maximal d'étoiles officielles peut être attribué à un hôtel de tourisme?
+    a: 4
+  - q: Dans le dessin animé Kuzco, en quel animal est transformé l'Empereur mégalo?
+    a: Un lama
+  - q: Quel nom espagnol porte le Tour d'Espagne cycliste?
+    a: La Vuelta
+  - q: En Italie, quel volcan actif s'élève près de la ville de Naples?
+    a: Le Vésuve
+  - q: Quel nom désigne à la fois un petit chariot à deux roues et un personnage représentant le mal?
+    a: Un diable
+  - q: Dans la B.D. d'Astérix, quel camp romain proche du village gaulois porte le nom d'un gâteau?
+    a: Babaorum
+  - q: La luge est une discipline olympique, vrai ou faux?
+    a: Vrai
+  - q: Quel nom commençant par R désigne le trajet que parcours la Terre en une année autour du Soleil?
+    a: Une révolution
+  - q: La puissance sonore des baladeurs vendus en France doit être limitée à 100 dB, vrai ou faux?
+    a: Vrai
+  - q: Une bourrée auvergnate est-elle une danse ou un potage?
+    a: Une danse
+  - q: De quelle cuisse se croit-on sorti quand on se pense supérieur aux autres?
+    a: Jupiter
+  - q: Du son ou de la lumière, lequel a la plus grande vitesse dans l'air?
+    a: La lumière
+  - q: L'Allemagne et l'Italie ont une frontière commune, vrai ou faux?
+    a: Faux
+  - q: Pour quel objet volant la ville de Dieppe organise-t-elle un festival international?
+    a: Le cerf-volant
+  - q: Au curling, la cible est-elle dessinée au sol ou accrochée au mur?
+    a: Dessinée au sol
+  - q: Quel petit nom de 4 lettres designe un surveillant de collège?
+    a: Un pion
+  - q: Quel rapace est l'emblème des Etats-Unis d'Amérique?
+    a: L'aigle
+  - q: Les véritables saphirs sont bleus, vrai ou faux?
+    a: Vrai
+  - q: De quelle région l'autoroute appelée la Francilienne fait-elle le tour?
+    a: L'Ile de France
+  - q: Comment se prénomme l'ange gardien incarné par Mimie Mathy à la télévision?
+    a: Joséphine
+  - q: Combien y a-t-il de couloirs dans une piscine olympique?
+    a: 8
+  - q: Dans la mythologie grecque, Prométhée donne-t-il aux Hommes le feu ou la foudre?
+    a: Le feu
+  - q: Autrefois, autour de quel bassin couvert les femmes se rendaient-elles pour laver le linge à la main?
+    a: Le lavoir
+  - q: Un tégéviste est un conducteur de T.G.V., vrai ou faux?
+    a: Vrai
+  - q: Dans quel pays donne-t-on à l'Empereur le nom de Mikado?
+    a: Le Japon
+  - q: Quel liquide peut être sanguin, physiologique ou de vérité?
+    a: Le sérum
+  - q: Quel jardin au nom commençant par P est particulièrement réservé à la culture des légumes?
+    a: Un potager
+  - q: Selon l'expression populaire, que fait-on comme un arracheur de dents?
+    a: On ment
+6:
+  - q: Dans le langage des jeunes, la maille est-elle de l'argent ou un blouson?
+    a: De l'argent
+  - q: Au cinéma, de quel animal bavard Shrek ne parvient-il pas à se défaire?
+    a: L'âne
+  - q: Quel océan est situé bien au chaud entre l'Afrique, l'Asie et l'Australie?
+    a: L'Océan indien
+  - q: En mode veille, un téléviseur consomme de l'électricite. Vrai ou faux?
+    a: Vrai
+  - q: L'argot anglais est-il le "slam" ou le "slang"?
+    a: Slang
+  - q: A Tahiti, le nom "vahiné" désigne-t-il une femme ou une fleur?
+    a: Une femme
+  - q: Dans le Manège enchanté, quel personnage monté sur ressorts s'exclame "Tournicoti, tournicoton"?
+    a: Zébulon
+  - q: De quelle malade le vaccin anti-tétanique protège-t-il?
+    a: Du tétanos
+  - q: Complétez cette chanson de randonnée "Trois km à pieds, ça use les ..."
+    a: Souliers
+  - q: Quel métal précieux associe-t-on au livre dans lequel un invité écrit ses remerciements?
+    a: Livre d'or
+  - q: En économie, l'agriculture fait-elle partie du secteur primaire ou secondaire?
+    a: Primaire
+  - q: Selon l'expression, que met-on dans son vin lorsqu'on est conciliant?
+    a: De l'eau
+  - q: En 1998, dans quel film un jeune homme pauvre et une riche passagère tombent-ils amoureux sur un paquebot?
+    a: Titanic
+  - q: Si vous voyez courir un kiwi, de quel animal s'agit-il?
+    a: Un oiseau
+  - q: Beaumarchais a-t-il écrit "Le Barbier de Seville" ou "Le Barbier de Belleville"?
+    a: Le Barbier de Seville
+  - q: Sur quel support de plastique laisse-t-on sécher la vaisselle?
+    a: Un égouttoir
+  - q: Quel est le prénom de P.P.D.A.?
+    a: Patrick
+  - q: Combien de centièmes y a-t-il dans une seconde?
+    a: 100
+  - q: Dans la bande dessiné qui porte son nom, quel animal est Cubitus?
+    a: Un chien
+  - q: Quel nom spécifique de 4 lettres désigne le long vêtement traditionnel dont les femmes se drapent en Inde?
+    a: Le sari
+  - q: Pour quelle compétition internationale de 1998 le Stade de France a-t-il été construit?
+    a: La coupe du monde de football
+  - q: Sur le drapeau des Pays-Bas, quelle est la troisième couleur après le bleu et le blanc?
+    a: Le rouge
+  - q: Quel petit champignon de nos forêts trouve-t-on en mélangeant les lettres du mot "gorille"?
+    a: La girolle
+  - q: Quel bidon à poignées inventé en Allemagne dans les années 1930 est bien pratique pour transporter de l'essence?
+    a: Le jerrycane
+  - q: Selon la célèbre comptine, quel roi a mis sa culotte à l'envers?
+    a: Dagobert
+  - q: Lequel de deux tient son nom d'une ville d'Algérie, la bougie ou l'allumette?
+    a: La bougie
+  - q: Sur le cadran d'une montre, combien de tours fait l'aiguille des minutes en un jour complet?
+    a: 24
+  - q: Dans les courses automobiles, comment appelle-t-on la première place sur la ligne de départ?
+    a: Pole position
+  - q: En 1517, quel roi a fait venir Léonard de Vinci en France pour qu'il travaille pour lui?
+    a: François Ier
+  - q: Quelle est la race du chien de montagne souvent représenté avec un petit tonneau autour du cou?
+    a: Saint-Bernard
+  - q: A quel pays est rattaché un site Internet dont l'adresse se termine par .ch?
+    a: La Suisse
+  - q: Quel épice rouge au nom d'origine hongroise assaisonne le ragoût de viande appelé "goulash"?
+    a: Le paprika
+  - q: Quel anagramme du mot "facile" désigne ce que rêve de devenir le héros de BD Iznogoud?
+    a: Calife
+  - q: Dans quel film d'animation une jeune chinoise lutte-t-elle contre les Huns accompagnée de son petit dragon?
+    a: Mulan
+  - q: Quel mot anglais désigne une personne qui suit l'actualité d'une autre sur Twitter?
+    a: Un follower
+  - q: Au Handball, combien de pas un joueur ayant le ballon en main peut-il faire?
+    a: 3
+  - q: Dans cette chanson de Jane Birkin et Serge Gainsbourg, quelle année est érotique?
+    a: 1969
+  - q: Le lac proche de Chambéry est-il le lac du Bourget ou de Roissy? Bourget
+  - q: Quel gâteau du Limousin se présente sous la forme d'un flan truffé de cerises?
+    a: Le clafoutis
+  - q: Louis-Dominique Cartouche est l'inventeur des recharges de stylo, vrai ou faux?
+    a: Faux, c'est un célèbre bandit
+  - q: En 1971, quel film de Stanley Kubrick traite de la violence dans une Angleterre futuriste?
+    a: Orange mécanique
+  - q: Selon l'usage, lors d'un mariage à la mairie, la femme est-elle placé à gauche ou à droite du marié?
+    a: A gauche
+  - q: Quel moyen de locomotion permet d'accomplir une circumnavigation?
+    a: Un bateau
+  - q: Quel fruit associé à Isaac Newton a porté chance à Steve Jobs?
+    a: La pomme
+  - q: Quel héros de B.D. dit "Tchô" pour dire bonjour?
+    a: Titeuf
+  - q: Lequel est indispensable pour pratiquer la marche nordique, les skis ou les bâtons?
+    a: Les bâtons
+  - q: Au fond de l'océan, quel fruit sert de maison à Bob l'éponge?
+    a: Un ananas
+  - q: Fin 2013, quelle jeune chanteuse a été révélée par le single "Dernière danse"?
+    a: Indila
+  - q: Le fils du frère de mon père est-il mon neveu ou mon cousin?
+    a: Mon cousin
+  - q: Quel élément d'un ordinateur peut-il être DVORAK ou BÉPO?
+    a: Le clavier
+  - q: L'escargot pond des oeufs, vrai ou faux?
+    a: Vrai
+  - q: Dans quel sport peut-on "sucer la roue en danseuse"?
+    a: La cyclisme
+  - q: Comment dit-on Bretagne en breton?
+    a: Breizh
+  - q: Quand on classe des nombres par ordre décroissant, faut-il commencer par le plus petit ou le plus grand?
+    a: Le plus grand
+  - q: "Lequel de ces paris n'existe pas au jeu de la roulette : paire, manque ou impasse?"
+    a: Impasse
+  - q: Quel animal voit rouge devant un matador?
+    a: Le taureau
+  - q: Selon l'expression, quel fil n'a-t-on pas inventé quand on est pas malin?
+    a: Le fil à couper le beurre
+  - q: La petite image symbolisant un logiciel sur l'écran d'un ordinateur est-elle appelé icône ou pixel?
+    a: Icône
+  - q: Dans quelle conte une princesse s'endort-elle après s'être piqué la main avec un fuseau?
+    a: La Belle au bois dormant
+  - q: En électricité, à quel aliment compare-t-on le petit bloc de connection appelé "domino"?
+    a: Au sucre
+  - q: Le purpurine est-elle un colorant ou un fertilisant?
+    a: Un colorant
+  - q: Quel pays est le berceau du Mahatma Gandhi?
+    a: L'Inde
+  - q: Quel métal utilisé dans les batteries d'ordinateur a pour élément chimique Li?
+    a: Le lithium
+  - q: Comment appelle-t-on la partie la plus saillante de la joue?
+    a: La pommette
+  - q: Quand c'est l'été en France, c'est l'hiver au Japon. Vrai ou faux?
+    a: Faux
+  - q: Pour un enfant, qui est le frère de son père?
+    a: Son oncle/tonton
+  - q: Dans la cuisine d'un restaurant, quel employé est submergé par la vaisselle?
+    a: Le plongeur
+  - q: Pour éviter de bafouiller, par quel sigle appelle-t-on l'otorhinolaryngologiste?
+    a: L'O.R.L.
+  - q: Quel ville des Vosges, au nom rimant avec "postal", est célèbre pour ses images?
+    a: Épinal
+  - q: Au saut de cheval, sur quelle planche les gymnastes prennent-ils de l'élan?
+    a: Un tremplin
+  - q: La salicorne est-elle une plante comestible ou un animal de légende?
+    a: Une plante comestible
+  - q: Quel nom anglais désigne un cinéma en plein air où l'on regarde le film sans sortir de son véhicule?
+    a: Un drive-in
+  - q: Quelle expression empruntée à l'italien utilise-t-on pour désigner des pâtes cuites restant fermes sous la dent?
+    a: Al dente
+  - q: Sur quel continent est situé l'ensemble montagneux appelé Atlas?
+    a: L'Afrique
+  - q: Combien d'épreuves doivent disputer les concurrentes d'un héptatlon?
+    a: 7
+  - q: En quelle année se sont achevés les conflits armés de la Première guerre mondiale?
+    a: 1918
+  - q: Dans un oeuf, quelle partie est aussi appelée "albumen"? Le blanc ou le jaune?
+    a: Le blanc
+  - q: Dans quelle ville habitent les Biterrois?
+    a: Béziers
+  - q: Au football, en match de coupe, combien de tireurs choisit chaque équipe au moment de l'épreuve des tirs au but?
+    a: 5
+  - q: Le dirigeant surnommé "le Grand Timonier" était-il Lénine ou Mao?
+    a: Mao
+  - q: Dans quel océan les sauveteurs des plages de Malibu plongent-ils?
+    a: L'océan Pacifique
+  - q: En informatique, quel signe de ponctuation symbolise la rubique Aide?
+    a: ???????????
+  - q: L'ami de Mickey qui porte un chapeau est-il Pluto ou Dingo?
+    a: Dingo
+  - q: Dans quel sport de ballon le quarterback porte-t-il un casque grillagé?
+    a: Football américain
+  - q: Dans un nombre décimal, le chiffre des dizièmes est-il placé à gauche ou à droite de la virgule?
+    a: A droite
+  - q: Comment appelle-t-on les deux tiges sensorielles situées sur la tête des fourmis?
+    a: Les antennes
+  - q: Quelle opération algébrique est symbolisée par un signe en forme de X?
+    a: La multiplication
+  - q: Seuls les médecins sont appelés docteurs, vrai ou faux?
+    a: Faux
+  - q: De quoi sont traditionnellement faits les oeufs et les lapins cachés à Pâques dans le jardin?
+    a: De chocolat
+  - q: Si l'aubergiste tient une auberge, qui tient une taverne?
+    a: Le tavernier
+  - q: Quel journaliste présente le journal télévisé de 13 heures depuis plus de 30 ans?
+    a: Jean-Pierre Pernaut
+  - q: Sur quel petit vélo à 3 roues les enfants apprennent-ils à faire de la bicyclette?
+    a: Un tricycle
+  - q: Dans quel pays le pilote Sébastien Loeb dispute-t-il le rallye de l'Acropole?
+    a: La Grèce
+  - q: L'Homme et le chimpanzé ont-ils en commun 28, 68 ou 98% de leur patrimoine génétique?
+    a: 98%
+  - q: Quel immeuble a donné son nom au scandale ayant amené Richard Nixon à démissioner?
+    a: Le Watergate
+  - q: Dans la bande dessinée, quel est le nom du petit cochon accompagnant Winnie l'Ourson dans ses aventures?
+    a: Porcinet
+  - q: Quel gaz léger et inerte est généralement utilisé pour gonfler les ballons dirigeables?
+    a: L'hélium
+  - q: Proche de la magie, l'hépatologie est une discipline qui enseigne des tours épatants. Vrai ou faux?
+    a: Faux
+  - q: Quel mot désigne à la fois un objet de maroquinerie et la fonction de ministre?
+    a: Le portefeuille
+  - q: Sur quelle île française est située le désert des Agriates?
+    a: En Corse
+  - q: Depuis le XIXème siècle, quelle note de musique donnée par un diapason sert à accorder les instruments?
+    a: Le La
+  - q: Quelle maison de montagne traditionnellement en bois et avec un toit débordant tient son nom d'un mot suisse?
+    a: Le chalet
+7:
+  - q: Quel nom latin désigne un groupe de discussion sur Internet?
+    a: Un forum
+  - q: Quel acteur-réalisateur est la voix française de l'ogre Shrek?
+    a: Alain Chabat
+  - q: Sur une plage, comment appelle-t-on les cailloux polis et arrondis par la mer?
+    a: Les galets
+  - q: Quel médicament fait-on couler goutte à goutte dans une oeil irrité?
+    a: Un collyre
+  - q: Quelle petite fleur blanche et odorante parfume le thé accompagnant la cuisine chinoise?
+    a: Le jasmin
+  - q: Quel nom de parasite désigne le marché où l'on vend des objets d'occasion?
+    a: Les puces
+  - q: Quelle langue appelle-t-on la langue de Cervantès?
+    a: L'espagnol
+  - q: Comment appelle-t-on les vacanciers du 8ème mois de l'année?
+    a: Les aoûtiens
+  - q: De quel animal dit-on "C'est la plus belle conquête de l'Homme"?
+    a: Le cheval
+  - q: Quelle petite boule de nacre monte-t-on en collier?
+    a: Les perles
+  - q: Quel minerai est extrait de la Terre par les "gueules noires"?
+    a: Le charbon
+  - q: En droit, quel nom désigne deux personnes formant un couple et vivant en union libre?
+    a: Les concubins
+  - q: Dans quel jeu d'enfant doit-on compter jusqu'à 100 avant de chercher les autres?
+    a: Cache-cache
+  - q: Quel pays est le plus peuplé de l'Union Européenne?
+    a: L'Allemagne
+  - q: Quels éléments d'une voiture peuvent fonctionner au Xénon?
+    a: Les phares
+  - q: Quelle bande de tissu tricolore est portée en bandoulière par un maire?
+    a: L'écharpe
+  - q: En mathématiques, par quel signe désigne-t-on le plus petit commun multiple?
+    a: Le PPCM
+  - q: Quel est le prénom de la reine d'Irlande du Nord?
+    a: Elizabeth
+  - q: Lequel des 5 sens utilise-t-on pour déchiffrer le braille?
+    a: Le toucher
+  - q: Quels cavaliers sont récompensés par la cravache d'or?
+    a: Les jockeys
+  - q: Quelle capitale européenne est dominée par le temple du Parthénon?
+    a: Athènes
+  - q: Sur un feu tricolore, de quelle couleur est le feu situé au milieu?
+    a: Orange
+  - q: A quelle date commémore-t-on l'armistice de 1918?
+    a: 11 novembre
+  - q: Quel nom anglais désigne couramment un déodorant en forme de batonnet?
+    a: Stick
+  - q: Dans une série télévisée, à quel monstre vert Lou Ferrigno a-t-il prêté ses muscles?
+    a: Hulk
+  - q: Aux échecs, quelle pièce est la plus puissante?
+    a: La reine
+  - q: Combien d'incisives un adulte possède-t-il?
+    a: 8
+  - q: Au cours d'un de ses voyages, quel héros débarque chez les Liliputiens?
+    a: Gulliver
+  - q: Quel état de la zone euro émet des pièces où figure "La semeuse"?
+    a: La France
+  - q: Quel fruit est une Golden Delicious?
+    a: La pomme
+  - q: Quelle couleur associe-t-on à la littérature policière?
+    a: Le noir
+  - q: Quel nom de 3 lettres désigne une signature dessiné à la bombe sur un mur?
+    a: Un tag
+  - q: Quelle région du Canada est appelée la belle province?
+    a: Le Québec
+  - q: De quelle collection de cartes pour enfants Pikachu est-il la star?
+    a: Les Pokémon
+  - q: Dans le film "Moulin rouge", quelle chanteuse australienne incarne la Fée verte?
+    a: Kylie Minogue
+  - q: Que pince-t-on sur une contrebasse?
+    a: Les cordes
+  - q: Avec quel aiguillon venimeux les guêpes piquent-elles?
+    a: Le dard
+  - q: Quel jeune sorcier porte sur le front une cicatrice en forme d'éclair?
+    a: Harry Potter
+  - q: Quel nom anglais désigne les tresses portées par les rastas?
+    a: Dreadlocks
+  - q: A la fin de quel mois célèbre-t-on la fête d'Halloween?
+    a: Octobre
+  - q: De quelle plaque de terre cuite recouvre-t-on les toits?
+    a: De tuiles
+  - q: Dans sa chanson, de quoi Enrico Macias est-il le mendiant?
+    a: De l'amour
+  - q: Quelle unité de masse est symbolisée par la lettre Q?
+    a: Le quintal
+  - q: Aux échecs, avec quelle pièce la tour peut-elle rocker?
+    a: Le roi
+  - q: Au cinéma, quel acteur se transformait en Madame Doubtfire?
+    a: Robin Williams
+  - q: Quel tendon du pied porte le nom d'un héros grec?
+    a: Le tendon d'Achille
+  - q: Dans les albums de Tintin, quels policiers se ressemblent comme deux gouttes d'eau?
+    a: Dupont et Dupond
+  - q: Au Scrabble, de quelle couleur est la case "Lettre compte double"?
+    a: Bleue
+  - q: Quelle énergie une éolienne transforme-t-elle en électricité?
+    a: Le vent
+  - q: En chiffres romains, quelle lettre de l'alphabet correspond au nombre cent?
+    a: C
+  - q: Quelle ville est la capitale de la Principauté de Monaco?
+    a: Monaco
+  - q: Quel produit de substitution du beurre a été créé à l'initiative de Napoléon III?
+    a: La margarine
+  - q: D'après la traduction littérale de l'américain, quelle céréale fournit les corn flakes?
+    a: Le maïs
+  - q: En Egypte, dans quel site archéologique se trouve la tombe de Toutankhamon?
+    a: La vallée des rois
+  - q: Quel fleuve traverse la ville de Rome?
+    a: Le Tibre
+  - q: Quel sommet de l'Himalaya est surnommé "le toit du monde"? L'Everest
+  - q: Quel os relie le genou à la hanche?
+    a: Le fémur
+  - q: En écologie, quel élément naturel est appelé l'or bleu?
+    a: L'eau
+  - q: Quel prénom les rois de France ont-ils le plus souvent porté?
+    a: Louis
+  - q: Quelle matière naturelle le skaï imite-t-il?
+    a: Le cuir
+  - q: Quelle fleur est l'emblème national de l'Angleterre?
+    a: La rose
+  - q: Quelle est la deuxième lettre de l'alphabet grec?
+    a: Bêta
+  - q: A Paris, combien d'avenues rayonnent autour de l'Arc de Triomphe?
+    a: 12
+  - q: Quel sport équestre se pratique avec une balle et un maillet?
+    a: Le polo
+  - q: Dans quel film peut-on voir Mister T affronter Sylvester Stallone sur un ring?
+    a: Rocky III
+  - q: Au restaurant chinois, quel petit légume rond et vert agrémente le riz cantonais?
+    a: Les petits pois
+  - q: Quelle sorte d'écharpe en plume porte le nom d'un serpent?
+    a: Un boa
+  - q: De combien d'années est âgé un enfant de 36 mois?
+    a: 3 ans
+  - q: Quel nom de 3 lettres désigne un bar typiquement anglais?
+    a: Un pub
+  - q: Dans Blanche-Neige, quel nom raleur fronce souvent les sourcils?
+    a: Grincheux
+  - q: Au cinéma, dans le sigle V.O., que signifie la lettre O?
+    a: Originale
+  - q: Par quel nom de métal désigne-t-on familièrement un comptoir de café?
+    a: Le zinc
+  - q: Charles Louis Napoléon Bonaparte a été le premier Président de la République Française, vrai ou faux?
+    a: Vrai
+  - q: Quelle actuelle région administrative française était appelée Armorique du temps de la Gaule?
+    a: La Bretagne
+  - q: Le NASDAQ est-il un indice boursier ou la monnaie du Groenland?
+    a: Un indice boursier
+  - q: Si votre commerce périclite, cela signifie qu'il prospère. Vrai ou faux?
+    a: Faux
+  - q: Lequel de ces deux hommes est un écrivain américain? Robin Williams ou Tennessee Williams?
+    a: Tennessee Williams
+faceoff:
+  - q: Quel est le nom du programme spatial américain qui a envoyé des hommes sur la Lune?
+    a: Apollo
+  - q: Quel chanteur gothique à l'allure androgyne s'est inspiré de Marilyn Monroe pour son nom de scène?
+    a: Marilyn Manson
+  - q: Quel aromate appelle-t-on farigoule en provence?
+    a: Le thym
+  - q: Quel adjectif spécifique qualifie la phase du sommeil pendant laquelle les rêves ont la plus large place?
+    a: Le sommeil paradoxal
+  - q: A Paris, à quels marchands installés sur les quais de la Seine peut-on acheter des livres rares ou d'occasion?
+    a: Les bouquinistes
+  - q: Comment appelle-t-on les poils de sangliers avec lesquels on fait des pinceaux?
+    a: Les soies
+  - q: Quel sport Harry Potter pratique-t-il sur un Nimbus 2000?
+    a: Le quidditch
+  - q: Dans quelle immense pays se trouve la montagne sacrée vénérée depuis des millenaires et appelée "Ayers Rock" ou "Uluru"?
+    a: L'Australie
+  - q: Au début du 20ème siècle, quel homme politique français était surnommé le tigre?
+    a: George Clémenceau
+  - q: Sur la tige d'une vis, quelle rainure en spirale permet d'y fixer un écrou?
+    a: Le pas / Le filetage
+  - q: A quel grand révolutionnaire français doit-on cette phrase "De l'audace, encore de l'audace, toujours de l'audace"?
+    a: Danton
+  - q: Sur un T-shirt ou dans un E-mail, quel nom anglais désigne le rond jaune représentant un visage souriant?
+    a: Un smiley
+  - q: Depuis août 2006, quel astre n'est plus officiellement considéré comme l'une des planètes du Système solaire?
+    a: Pluton
+  - q: Quelle danse hip-hop, imitant les mouvements syncopés d'un robot, doit son nom aux Schtroumpfs?
+    a: Le smurf
+  - q: Au tennis, dans quelle grande compétition l'équipe gagnante soulève-t-elle le Saladier d'argent?
+    a: La coupe Davis
+  - q: Quelle maladie infantile caractérisée par des quintes de toux appelle-t-on le champ du coq?
+    a: La coqueluche
+  - q: Quel candidat à l'élection présidentielle de 1981 avait pour slogan "Avant moi, la France était coupée en deux. Maintenant, elle sera pliée en 4"?
+    a: Coluche
+  - q: En conjugaison, quel est le seul verbe du 3ème groupe qui se finit par -er à l'infinitif?
+    a: Aller
+  - q: Quel est l'autre nom du "jambon-beurre", le sandwich français par excellence?
+    a: Un parisien
+  - q: Sur une piste de Formule 1, comment appelle-t-on une succession de deux virages serrés et de sens contraire?
+    a: Une chicane
+  - q: A la fin du film "La planète des singes" sorti en 1968, quel célèbre monument apparait à moitié enseveli sur la plage?
+    a: La Statue de la liberté
+  - q: En 2005, de quel jeune cuisinier de la télé-réalité a-t-on suivi l'ouverture du restaurant dans l'émission "Oui chef"?
+    a: Cyril Lignac
+  - q: Lors de son lancement en 1946, quel maillot de bain avait pour slogan "la première bombe anatomique"?
+    a: Le bikini
+  - q: Quelle race de gros chien entraîné pour le sauvetage en mer doit son nom à une île du Canada?
+    a: Le Terre-neuve
+  - q: Avec 51 buts, quelle star du football est le meilleur buteur de l'histoire de l'équipe de France?
+    a: Thierry Henry
+  - q: Quel humoriste nous a raconté les joies de sa grossesse et de son accouchement dans son spectacle "Motherfucker"?
+    a: Florence Foresti
+  - q: Quelle maladie infantile contagieuse touchant 90% des enfants se reconnait à ses boutons qui grattent?
+    a: La varicelle
+  - q: Combien de points risque-t-on de perdre sur son permis si l'on conduit avec son téléphone portable à la main?
+    a: 3
+  - q: Quel acteur chinois est surnommé "L'homme aux mille fractures" en raison de ses nombreux accidents de tournage?
+    a: Jackie Chan
+  - q: Quelle pièce de théâtre Molière a-t-il joué le jour de sa mort?
+    a: Le Malade imaginaire
+  - q: Quel gangster américain ennemi public numéro un a été trahi par son train de vie luxueux et emprisonnée en 1931?
+    a: Al Capone
+  - q: Dans quelle ville d'Egypte, proche du Caire, sont situées les pyramides de Khéops, Khéphren et Mykérinos?
+    a: Gizeh
+  - q: Quel Pokémon jaune, aux allures de souris électrique, a été la principale mascotte de l'équipe japonaise de football au mondial 2014?
+    a: Pikachu
+  - q: Parmi les états membres de l'Union européenne, quel est le seul état dont le nom désigne à la fois le pays et sa capitale?
+    a: Le Luxembourg
+  - q: Dans quel roman de Zola, Etienne Lantier mène-t-il la grêve des mineurs de charbon dans le Nord de la France?
+    a: Germinal
+  - q: Quel chiffre inscrit sur un oeuf certifie qu'il est bio?
+    a: 0
+  - q: Le 11 novembre 1989, sur quel instrument Rostropovitch a-t-il joué une suite de Jean-Sébastien Bach au pied du mur de Berlin?
+    a: Un violoncelle
+  - q: Quel personnage de dessin animé a donné son nom au syndrome qui touche les gens refusant de grandir?
+    a: Peter Pan
+  - q: Quel personnage de Fort Boyard tient son nom d'une ville de Charente-Maritime d'où on peut apercevoir le fort?
+    a: Le Père Fouras
+  - q: Quel concours de beauté international fut organisé par Donald Trump de 1996 à 2014?
+    a: Miss Univers
+  - q: Quelle plante aromatique est dite verte, aquatique ou poivrée?
+    a: La menthe
+  - q: A quel mathématicien grec doit-on l'invention des tables de multiplication?
+    a: Pythagore
+  - q: Quel pays asiatique a pour drapeau 5 étoiles jaunes sur fond rouge?
+    a: La Chine
+  - q: En bricolage, quel nom désigne l'ensemble constitué d'une vis et de l'écrou qui s'y adapte?
+    a: Un boulon
+  - q: Pour la chanteuse Shy'm, à quelle île des Antilles correspond la lettre M qui figure dans son nom?
+    a: La Martinique
+  - q: A la télé, quelle émission d'appel au don se déroule bien souvent le même jour que l'élection de Miss France?
+    a: Le Téléthon
+  - q: Aux J.O., quel sport se pratique en maillot de bain mais sans jamais toucher l'eau?
+    a: Le beach-volley
+  - q: Quel monument égyptien est aussi le plus vieux admirable à Paris?
+    a: L'Obélisque (de Louxor)
+  - q: Sur quelle petite console de poche les enfants jouaient-ils à Tetris ou à Super Mario il y a 30 ans?
+    a: La Gameboy
+  - q: Quel film de 2007 avec Marion Cotillard est sorti aux Etats-Unis sous le titre français "La vie en rose"?
+    a: La Môme
+  - q: Sur un célèbre tableau de Magritte, quel objet est peint au-dessus de la phrase "Ceci n'est pas une pipe"?
+    a: Une pipe
+  - q: De quelle fleur tire-t-on le safran, qui colore en jaune-orangé le riz de la paëlla?
+    a: Le crocus
+  - q: Comment appelle-t-on l'emblême des médecins où figure un serpent?
+    a: Le caducée
+  - q: Quel port du Finistère accueille tout les 4 ans la fête internationale de la mer et des marins?
+    a: Brest
+  - q: De quelle locution latine les lettres N.B. inscrites au bas d'une lettre sont-elles l'abréviation?
+    a: Nota Bene
+  - q: Dans les Trois mousquetaires, quelle fleur est marquée au fer rouge sur l'épaule de Milady de Winter?
+    a: Une fleur de lys
+  - q: Quel nom espagnol tiré de l'arabe désigne les carreaux de faïence aux motifs bleus typiques de l'Espagne et du Portugal?
+    a: Azulejos
+  - q: Dans l'Antiquité, quel grand conquérant de l'Empire perse avait appelé son cheval favori "Bucéphale"?
+    a: Alexandre le Grand
+  - q: Quel nom composé désigne un procès auquel le public n'a pas le droit d'assister?
+    a: Huis clos
+  - q: Devant quel monument est situé le kilomètre zéro, utilisé pour le calcul des distances entre Paris et les autres villes?
+    a: Notre-Dame-de-Paris
+  - q: Quelle boule d'aluminium lancée par les Soviétiques en 1957 a émis les premiers bip-bips depuis l'Espace?
+    a: Spoutnik (I)
+  - q: Chez l'Homme, quelle protéine contenue dans les globules rouges est chargée de transporter l'oxygène dans le sang?
+    a: L'hémoglobine
+  - q: Au cours du tournage de quel film d'Hitchcock Grace Kelly a-t-elle rencontré son futur époux, le Prince Rainier de Monaco?
+    a: La Main au collet/To Catch a Thief
+  - q: Quelle enclave britannique située sur la péninsule ibérique est appelée "Le rocher"?
+    a: Gibraltar
+  - q: Selon l'expression, quel objet brûle-t-on par les deux bouts lorsqu'on fait des excès?
+    a: La chandelle
+  - q: En France de nos jours, à quelle valeur correspond 10 puissance 9 ?
+    a: Un milliard
+  - q: Quel épice provenant d'une écorce et vendu en poudre est souvent utilisé pour relever compotes et vins chauds?
+    a: La canelle
+  - q: Dans quel roman Athos, Portos et Aramis recontrent-ils pour la première fois D'Artagnan?
+    a: Les trois mousquetaires
+  - q: Dans le ciel, quelle constellation est aussi appelée le petit chariot?
+    a: La petite ourse
+  - q: En 1964, quel prix Nobel Martin Luther King a-t-il reçu?
+    a: Le Prix Nobel de la Paix
+  - q: Dans le corps humain, quel type de vertèbre est l'atlas?
+    a: Cervicale
+  - q: Quelle colombienne a chanté lors de la cérémonie d'ouverture du Mondial 2006 de football?
+    a: Shakira
+  - q: Quel petit village de Picardie est aussi le titre de la chanson qui a revélé Kamini?
+    a: Marly Gomont
+  - q: Avant chaque match international, quel chant guerrier et tribal les rugbymen néozélandais interprètent-ils?
+    a: Le haka
+  - q: Dans le dessin animé les Aristochats, quel chaton porte le nom d'un grand compositeur?
+    a: Berlioz
+  - q: Quel héros grec a dit à ses compagnons de boucher leurs oreilles pour résister au chant des sirènes?
+    a: Ulysse
+  - q: Pour quel président américain Marilyn Monroe chanta-t-elle le fameux "Happy birthday to you, Mr. President"?
+    a: John Fitzgerald Kennedy
+  - q: Quel nom donne-t-on au drapeau du Royaume Uni créé en 1606?
+    a: Union Jack
+  - q: Quel Pokémon évolue successivement en Reptincelle et Dracofeu?
+    a: Salamèche
+  - q: Quel fruit originaire d'Amérique fut introduit en Europe au XVIIIème siècle sous le nom de "Pomme d'amour"?
+    a: La tomate
+>>>>>>> 26102019-prod

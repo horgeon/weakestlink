@@ -44,6 +44,7 @@ export default class Join extends Component {
             case 'GAME_PUSH':
                 this.context.setContext({gameCode: event.gameCode, game: event.game});
                 this.setState({joined: true});
+                Router.push('/win');
                 return true;
         }
         return false;

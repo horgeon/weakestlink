@@ -18,6 +18,8 @@ export default class Start extends Component {
 
     componentDidMount() {
         this.context.setOnEvent(this.onEvent);
+        let currentSeq = this.getCurrentSequence();
+        this.context.setContext({bank: currentSeq.bank});
     }
 
     onEvent(event) {
@@ -32,6 +34,12 @@ export default class Start extends Component {
         return false;
     }
 
+    getCurrentSequence() {
+        if(this.context.game !== null && this.context.game.currentSequence !== null)
+            return this.context.game.currentSequence;
+        return {};
+    }
+
     handleSubmit(strongestIsStarting) {
         this.setState({ submitted: true });
         this.context.sendEvent({
@@ -42,30 +50,54 @@ export default class Start extends Component {
     }
 
     render() {
-        if(this.state.started) {
-            return (
-                <Container>
-                    <p>
-                        Faceoff started...
-                    </p>
-                </Container>
-            );
-        }
-        if(this.context.gameMaster || this.context.gameAssistant) {
+        let currentSeq = this.getCurrentSequence();
+        if(currentSeq.type === 'FACEOFF') {
+            if(this.state.started) {
+                return (
+                    <Container>
+                        <p>
+                            Faceoff started...
+                        </p>
+                    </Container>
+                );
+            }
+            let stats = [];
+            let players = [...currentSeq.players];
+            players.sort((a, b) =>  b.currentRoundStats.score - a.currentRoundStats.score);
+            players.forEach(player => {
+                stats.push((
+                    <li>{player.name} {player.currentStatus}</li>
+                ));
+            });
+            if(this.context.gameMaster || this.context.gameAssistant) {
+                return (
+                    <Container>
+                        Faceoff
+                        <p>Bank: {currentSeq.bank}</p>
+                        <p>Players:</p>
+                        <ul>
+                            {stats}
+                        </ul>
+                        <Form inverted loading={this.state.submitted}>
+                            <Button onClick={() => this.handleSubmit(true)}>Strongest start</Button>
+                            <Button onClick={() => this.handleSubmit(false)}>Other start</Button>
+                        </Form>
+                    </Container>
+                );
+            }
             return (
                 <Container>
                     Faceoff
-                    <Form inverted loading={this.state.submitted}>
-                        <Button onClick={() => this.handleSubmit(true)}>Strongest start</Button>
-                        <Button onClick={() => this.handleSubmit(false)}>Other start</Button>
-                    </Form>
+                    <p>Bank: {currentSeq.bank}</p>
+                    <p>Players:</p>
+                    <ul>
+                        {stats}
+                    </ul>
                 </Container>
             );
         }
         return (
-            <Container>
-                Faceoff
-            </Container>
+            <Container>Waiting...</Container>
         );
     }
 };

@@ -21,6 +21,7 @@ class Round {
             orderedBankScale[key] = configuration.bank.gainScale[key];
         });
         this.bankGainScale = Object.values(orderedBankScale);
+
         if(configuration.questions.order === 'random') {
             this.shuffleQuestions();
         }
@@ -72,18 +73,23 @@ class Round {
         switch(this.bankFillType) {
             case 'previous':
                 let reversedPreviousSequence = [...previousSequences];
+                reversedPreviousSequence.pop();
                 reversedPreviousSequence.reverse();
                 let previousRound = reversedPreviousSequence.find(seq_elem => seq_elem instanceof Round);
-                this.bank = ( !isNaN(previousRound.bank) ? this.bankPreMultiplier * previousRound.bank : 0 );
+                console.log(previousRound);
+                console.log(previousRound.totalBank);
+                this.totalBank = ( !isNaN(previousRound.bank) ? this.bankPreMultiplier * previousRound.bank : 0 );
                 break;
 
             default:
-                this.bank = 0;
+                this.totalBank = 0;
                 break;
         }
+        this.bank = 0;
         this.sendSetUI = game.sendSetUI;
         this.sendEventWithGame = game.sendEventWithGame;
         this.players = [...players];
+
         switch(this.playerStartType) {
             case 'alphabetical':
                 let firstPlayerByName = this.players.reduce((acc, current) => {
@@ -106,6 +112,7 @@ class Round {
                 }
                 break;
         }
+
         this.players.forEach(player => player.changeRound());
         // If no more players
         if(this.players.length == 0) {
@@ -152,6 +159,7 @@ class Round {
 
     changeQuestion() {
         console.log('# ROUND : Change question');
+
         // Remove question in front if we need to advance
         if(this.currentQuestion !== null) {
             this.questions.shift();
@@ -187,6 +195,7 @@ class Round {
             // We are at the top, stop the round
             shouldStop = true;
         }
+      
         // Get current player
         let currentPlayer = this.players.shift();
         // Set current player stats
@@ -200,7 +209,7 @@ class Round {
         // Change question if we should continue
         if(shouldStop) {
             console.log('# ROUND : Gain scale maxed, stopping round');
-            this.stop();
+            this.putInBank();
         } else {
             this.changeQuestion();
         }
@@ -232,10 +241,32 @@ class Round {
     }
 
     putInBank() {
+        let shouldStop = false;
         // Get gains according to scale
         let gains = parseFloat(this.bankGainScale[this.bankGainScaleIndex]);
+        let newBankValue = this.bank + gains;
+        console.log("Before condition");
+        console.log(this.bank);
+        console.log(newBankValue);
+        console.log(gains);
+        console.log(this.bankGainScaleIndex);
+        console.log(this.bankGainScale[this.bankGainScaleIndex]);
+        // If the new bank value is higher than the highest scale step
+        if(newBankValue >= this.bankGainScale[this.bankGainScale.length - 1]) {
+            gains = this.bankGainScale[this.bankGainScale.length - 1] - this.bank;
+            newBankValue = this.bankGainScale[this.bankGainScale.length - 1];
+            // Stop the round
+            shouldStop = true;
+        }
+        console.log("After condition");
+        console.log(this.bank);
+        console.log(newBankValue);
+        console.log(gains);
+        console.log(this.bankGainScaleIndex);
+        console.log(this.bankGainScale[this.bankGainScaleIndex]);
         // Put gain in bank
-        this.bank += gains;
+        this.bank = newBankValue;
+        this.totalBank += gains;
         // Go back to bottom of gain scale
         this.bankGainScaleIndex = 0;
         // Get current player
@@ -256,6 +287,11 @@ class Round {
             question: this.currentQuestion
         });
         this.timer = timer;
+        // Change question if we should continue
+        if(shouldStop) {
+            console.log('# ROUND : Gain higher than last scale step, stopping round');
+            this.stop();
+        }
     }
 
     stop() {
