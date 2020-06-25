@@ -1,9 +1,9 @@
 import { Component, useContext } from 'react'
-import UserContext from '../../components/UserContext';
+import UserContext from './../components/UserContext';
 import { Table, Container, Form, Button } from 'semantic-ui-react'
 
-import BankScale from '../../components/BankScale';
-import Duration from '../../components/Duration';
+import BankScale from './../components/BankScale';
+import Duration from './../components/Duration';
 
 export default class Run extends Component {
     static contextType = UserContext;

@@ -1,5 +1,5 @@
 import { Component, useContext } from 'react'
-import UserContext from '../../components/UserContext';
+import UserContext from './../components/UserContext';
 import { Table, Container, Form, Button, Checkbox, Accordion } from 'semantic-ui-react'
 
 export default class Vote extends Component {

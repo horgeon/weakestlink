@@ -1,7 +1,7 @@
 import React from 'react';
 import App from 'next/app';
 import Head from 'next/head'
-import UserContext from '../components/UserContext';
+import UserContext from './components/UserContext';
 
 import io from 'socket.io-client';
 import Router from 'next/router';
