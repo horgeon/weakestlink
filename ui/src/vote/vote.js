@@ -1,4 +1,4 @@
-import { Component, useContext } from 'react'
+import React, { Component, useContext } from 'react'
 import UserContext from './../components/UserContext';
 import { Table, Container, Form, Button, Checkbox, Accordion } from 'semantic-ui-react'
 
