@@ -1,16 +1,27 @@
-import App from 'next/app';
-import Head from 'next/head'
-import UserContext from './components/UserContext';
-
 import io from 'socket.io-client';
-import Router from 'next/router';
 
 import Cookies from 'js-cookie'
 
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import {
+  Router,
+  Switch,
+  Route
+} from 'react-router-dom';
+import { createHashHistory } from 'history';
+
+import Index from './main';
+import Join from './join';
+import New from './new';
+import Start from './start';
+import Win from './win';
+import Faceoff from './faceoff';
+import Round from './round';
+import Vote from './vote';
+
+import UserContext from './components/UserContext';
 import { Segment, Dimmer, Loader, Message } from 'semantic-ui-react'
-//import 'semantic-ui-css/semantic.min.css'
 
 class GameApp extends Component {
     state = {
@@ -26,7 +37,8 @@ class GameApp extends Component {
         eventsOnWait: [],
         player: null,
         playerName: null,
-        inverted: true
+        inverted: true,
+        history: createHashHistory()
     };
 
     constructor(props) {
@@ -43,9 +55,9 @@ class GameApp extends Component {
 
     componentDidMount = () => {
         let obj = this;
-        Router.events.on('routeChangeStart', url => this.setState({loading: true}));
+        /*Router.events.on('routeChangeStart', url => this.setState({loading: true}));
         Router.events.on('routeChangeComplete', () => this.setState({loading: false}));
-        Router.events.on('routeChangeError', () => this.setState({loading: false}));
+        Router.events.on('routeChangeError', () => this.setState({loading: false}));*/
         obj.setState({playerId: Cookies.get('gamesession')});
         obj.state.io.on('connect', () => {
             console.log('# Socket connected.');
@@ -68,7 +80,8 @@ class GameApp extends Component {
                         break;
                     case "SET_UI":
                         obj.setState({game: event.game});
-                        Router.push(event.path);
+                        obj.state.history.push(event.path);
+                        obj.state.history.goForward();
                         break;
                     default:
                         if(obj.state.onEventCallback != null) {
@@ -129,26 +142,47 @@ class GameApp extends Component {
     }
 
     render() {
-        const { Component, pageProps } = this.props;
-
         return (
             <UserContext.Provider value={this.state}>
-                <Head>
-                    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />
-                    <link rel='stylesheet' type='text/css' href='/static/nprogress.css' />
-                </Head>
-                <Segment inverted={this.state.inverted}>
-                    <Dimmer active={this.state.connected}>
-                        <Loader>Connecting...</Loader>
-                    </Dimmer>
-                    <Dimmer active={this.state.loading}>
-                        <Loader />
-                    </Dimmer>
-                    <div>
-                        {this.state.errors}
-                    </div>
-                    <Component {...pageProps} />
-                </Segment>
+                <Router history={this.state.history}>
+                    <Segment inverted={this.state.inverted}>
+                        <Dimmer active={this.state.connected}>
+                            <Loader>Connecting...</Loader>
+                        </Dimmer>
+                        <Dimmer active={this.state.loading}>
+                            <Loader />
+                        </Dimmer>
+                        <div>
+                            {this.state.errors}
+                        </div>
+                        <Switch>
+                            <Route exact path="/">
+                                <Index />
+                            </Route>
+                            <Route path="/join">
+                                <Join />
+                            </Route>
+                            <Route path="/new">
+                                <New />
+                            </Route>
+                            <Route path="/start">
+                                <Start />
+                            </Route>
+                            <Route path="/win">
+                                <Win />
+                            </Route>
+                            <Route path="/faceoff">
+                                <Faceoff />
+                            </Route>
+                            <Route path="/round">
+                                <Round />
+                            </Route>
+                            <Route path="/vote">
+                                <Vote />
+                            </Route>
+                        </Switch>
+                    </Segment>
+                </Router>
             </UserContext.Provider>
         );
     }

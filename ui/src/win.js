@@ -20,15 +20,15 @@ export default class Win extends Component {
         this.setState({players: [...this.context.game.players], winner: winner});
     }
 
-    render() {
-        if(this.context.gameMaster || this.context.gameAssistant) {
-            return (
-                <Container>
-                    The winner is :
-                    <p><b>{this.state.winner !== null ? this.state.winner.name : ''}</b></p>
-                </Container>
-            );
+    onEvent(event) {
+        switch(event.type) {
+            case 'ROUND_STOP':
+                return true;
         }
+        return false;
+    }
+
+    render() {
         return (
             <Container>
                 <p>The winner is :</p>

@@ -2,8 +2,6 @@ import React, { Component, useContext } from 'react'
 import UserContext from './components/UserContext';
 import { Checkbox, Container, Form, Button } from 'semantic-ui-react'
 
-import Router from 'next/router'
-
 export default class Join extends Component {
     static contextType = UserContext;
 
@@ -24,10 +22,6 @@ export default class Join extends Component {
         this.handlePlayerNameChange = this.handlePlayerNameChange.bind(this);
         this.handlePlayerIDChange = this.handlePlayerIDChange.bind(this);
         this.onEvent = this.onEvent.bind(this);
-    }
-
-    static getInitialProps({query}) {
-        return {query}
     }
 
     componentDidMount() {
@@ -120,10 +114,10 @@ export default class Join extends Component {
                 </Container>
             );
         }
-        let advanced = (this.props.query.adv !== undefined);
+        let advanced = ((new URLSearchParams(window.location.search)).get("adv") !== undefined);
         return (
             <Container>
-                <Button onClick={() => Router.back()}>←</Button>
+                <Button onClick={() => this.context.history.goBack()}>←</Button>
                 <Form inverted onSubmit={this.handleSubmit} loading={this.state.submitted}>
                     <Form.Field>
                         <label>Game code</label>
