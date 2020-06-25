@@ -118,7 +118,7 @@ class Vote {
                     }
                 });
             });
-        });
+        }
         console.log(this.excludedPlayers);
         this.sendSetUI('/vote/reveal');
     }

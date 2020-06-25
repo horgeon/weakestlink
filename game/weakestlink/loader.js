@@ -14,7 +14,7 @@ function parseRoundSequence(sequenceIndex, sequenceDescriptionObject, questions)
         number: sequenceDescriptionObject.number,
         duration_s: sequenceDescriptionObject.duration_s,
         bank: sequenceDescriptionObject.bank,
-        questions: questions[sequenceDescriptionObject.number - 1]
+        questions: questions[sequenceDescriptionObject.number - 1],
         players: sequenceDescriptionObject.players,
         questions: {
             order: sequenceDescriptionObject.questions.order || 'inOrder',
