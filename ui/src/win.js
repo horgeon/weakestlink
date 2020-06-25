@@ -17,6 +17,8 @@ export default class Win extends Component {
 
     onEvent(event) {
         switch(event.type) {
+            case 'ROUND_STOP':
+                return true;
             case 'ERROR':
                 return true;
         }
@@ -30,15 +32,6 @@ export default class Win extends Component {
     }
 
     render() {
-        if(this.context.gameMaster || this.context.gameAssistant) {
-            return (
-                <Container>
-                    The winner is :
-                    <p><b>{this.state.winner !== null ? this.state.winner.name : ''}</b></p>
-                    <p>Bank: {this.context.bank}</p>
-                </Container>
-            );
-        }
         return (
             <Container>
                 <p>The winner is :</p>

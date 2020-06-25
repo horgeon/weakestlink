@@ -2,8 +2,6 @@ import React, { Component, useContext } from 'react'
 import UserContext from './components/UserContext';
 import { Segment, Container, Form, Button } from 'semantic-ui-react'
 
-import Router from 'next/router';
-
 export default class Start extends Component {
     static contextType = UserContext;
 
@@ -21,7 +19,8 @@ export default class Start extends Component {
     componentDidMount() {
         this.context.setOnEvent(this.onEvent);
         if(this.context.gameCode == undefined) {
-            Router.push('/');
+            this.context.history.push('/');
+            this.context.history.goForward();
         }
     }
 

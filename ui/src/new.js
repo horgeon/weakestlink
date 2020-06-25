@@ -2,8 +2,6 @@ import React, { Component, useContext } from 'react'
 import UserContext from './components/UserContext';
 import { Select, Container, Form, Button } from 'semantic-ui-react'
 
-import Router from 'next/router'
-
 export default class New extends Component {
     static contextType = UserContext;
 
@@ -36,7 +34,8 @@ export default class New extends Component {
                 return true;
             case "GAME_CREATED":
                 this.context.setContext({gameCode: event.gameCode, game: event.game, gameMaster: true});
-                Router.push('/start');
+                this.context.history.push('/start');
+                this.context.history.goForward();
                 return true;
             case "ERROR":
                 return true;
@@ -59,7 +58,7 @@ export default class New extends Component {
     render() {
         return (
             <Container>
-                <Button onClick={() => Router.back()}>←</Button>
+                <Button onClick={() => this.context.history.goBack()}>←</Button>
                 <Form inverted onSubmit={this.handleSubmit} loading={this.state.submitted}>
                     <Form.Field>
                         <label>Game kind</label>
