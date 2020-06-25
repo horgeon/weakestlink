@@ -18,6 +18,7 @@ require('./game/io');
     gameIO.io = io;
 
     server.set('trust proxy', 1);
+    server.use(express.static('ui/dist'));
     server.use(session({
         name: 'gamesession',
         secret: 'gamemanager',
@@ -25,10 +26,6 @@ require('./game/io');
         saveUninitialized: true,
         cookie: { secure: true, httpOnly: false }
     }));
-
-    server.get('*', (req, res) => {
-        return handle(req, res);
-    });
 
     io.on('connection', (socket) => {
         console.log('a user connected');
