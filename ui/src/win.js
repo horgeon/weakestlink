@@ -1,5 +1,5 @@
 import { Component, useContext } from 'react'
-import UserContext from '../components/UserContext';
+import UserContext from './components/UserContext';
 import { Segment, Container, Form, Button } from 'semantic-ui-react'
 
 export default class Win extends Component {

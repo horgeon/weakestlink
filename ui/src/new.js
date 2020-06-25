@@ -1,5 +1,5 @@
 import { Component, useContext } from 'react'
-import UserContext from '../components/UserContext';
+import UserContext from './components/UserContext';
 import { Select, Container, Form, Button } from 'semantic-ui-react'
 
 import Router from 'next/router'
