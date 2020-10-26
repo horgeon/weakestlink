@@ -17,7 +17,7 @@ function parseRoundSequence(sequenceIndex, sequenceDescriptionObject, questions)
         questions: questions[sequenceDescriptionObject.number - 1],
         players: sequenceDescriptionObject.players,
         questions: {
-            order: sequenceDescriptionObject.questions.order || 'inOrder',
+            order: (sequenceDescriptionObject.questions != undefined && sequenceDescriptionObject.questions.order != undefined) ? sequenceDescriptionObject.questions.order : 'inOrder',
             map: questions[sequenceDescriptionObject.number - 1]
         }
     });
@@ -26,7 +26,7 @@ function parseRoundSequence(sequenceIndex, sequenceDescriptionObject, questions)
 function parseFaceoffSequence(sequenceIndex, sequenceDescriptionObject, questions) {
     return new Faceoff({
         questions: {
-            order: sequenceDescriptionObject.questions.order || 'inOrder',
+            order: (sequenceDescriptionObject.questions != undefined && sequenceDescriptionObject.questions.order != undefined) ? sequenceDescriptionObject.questions.order : 'inOrder',
             map: questions['faceoff']
         }
     });
