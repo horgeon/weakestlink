@@ -22,9 +22,10 @@ class Player {
 
     static updateStatus(players) {
         let sortedPlayers = [...players];
+        sortedPlayers.forEach(player => player.currentStatus = '');
         sortedPlayers.sort((a, b) =>  b.currentRoundStats.score - a.currentRoundStats.score);
-        sortedPlayers[sortedPlayers.length - 1].currentStatus = 'Weakest Link';
-        sortedPlayers[0].currentStatus = 'Strongest Link';
+        sortedPlayers.filter(player => player.currentRoundStats.score === sortedPlayers[0].currentRoundStats.score).forEach(player => player.currentStatus = 'Strongest Link');
+        sortedPlayers.filter(player => player.currentRoundStats.score === sortedPlayers[sortedPlayers.length - 1].currentRoundStats.score).forEach(player => player.currentStatus = 'Weakest Link');
     }
 
     changeRound() {
